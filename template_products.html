@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Product Listing - PULP</title>
+<meta name="description" content="Handmade products listing." />
+<style>
+  :root {
+    --bg: #f7f6f4;
+    --card: #fff;
+    --accent: #c76a7c;
+    --accent-dark: #a44e5d;
+    --muted: #6b6b6b;
+    --radius: 12px;
+    --shadow: 0 6px 18px rgba(16,24,40,0.08);
+    --font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+  }
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    background: linear-gradient(180deg, var(--bg), #efecec 120px);
+    color: #222;
+    line-height: 1.4;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(6px);
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 2px 8px rgba(16,24,40,0.04);
+    z-index: 100;
+  }
+  .out-of-stock-tag {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    background: rgba(199,106,124,0.75);
+    color: white;
+    font-weight: 650;
+    padding: 2px 6px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    pointer-events: none;
+    user-select: none;
+    z-index: 20;
+  }
+  .brand {
+    display: flex;
+    gap: 12px;
+    color: inherit;
+    text-decoration: none;
+    align-items: center;
+  }
+  .logo {
+    width: 44px; height: 44px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+    border-radius: var(--radius);
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 6px 16px rgba(199,106,124,0.18);
+    user-select: none;
+  }
+  nav a {
+    color: var(--muted);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 16px;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: var(--accent-dark);
+  }
+  main {
+    max-width: 95%;
+    margin: 24px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: clamp(1.6rem, 2.4vw, 2.4rem);
+    margin-bottom: 12px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+  }
+  p.description {
+    color: var(--muted);
+    font-size: 1rem;
+    margin-bottom: 32px;
+    max-width: 95%;
+    text-align: center;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    width: 100%;
+  }
+  @media (min-width: 600px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 1024px) {
+    .product-grid {
+     grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .product-card {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 14px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: transform 0.18s, box-shadow 0.18s;
+    outline: none;
+    user-select: none;
+  }
+  .product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(16,24,40,0.08);
+    cursor: pointer;
+  }
+  .product-card:focus-visible {
+    outline: none;
+    background: var(--card);
+  }
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: var(--radius);
+    border: 1px solid #ddd;
+    background: #fafafa;
+    margin: 0 auto;
+  }
+  .slides {
+    display: flex;
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 100%;
+  }
+  .slides img {
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  border-radius: var(--radius) var(--radius) 0 0;
+  pointer-events: auto;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+  .slides img.contain-v {
+  object-fit: contain;
+}
+
+.slides img.contain-h {
+  object-position: center;
+  transform: scale(1.5);
+  object-fit: contain;
+}
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(199,106,124,0.7);
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, transform 0.25s ease;
+    z-index: 10;
+    user-select: none;
+    font-weight: 700;
+    font-family: var(--font-family);
+    line-height: 1;
+  }
+  .slider-button:hover {
+    background: var(--accent-dark);
+    transform: translateY(-50%) scale(1.15);
+  }
+  .slider-button.prev {
+    left: 8px;
+  }
+  .slider-button.next {
+    right: 8px;
+  }
+  .slider-button:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }  
+  .product-title {
+    font-weight: 650;
+    font-size: 1.1rem;
+    color: #222;
+    margin: 0;
+  }
+  footer {
+    margin-top: auto;
+    padding: 28px 20px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  @media (max-width: 880px) {
+    nav a {
+      margin-left: 8px;
+      font-size: 0.9rem;
+    }
+  }
+  #pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    color: var(--accent-dark);
+    user-select: none;
+  }
+  #pagination button {
+    background-color: var(--accent);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  #pagination button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  #pagination button:not(:disabled):hover {
+    background-color: var(--accent-dark);
+  }
+  #goto-page {
+    width: 60px;
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid var(--accent);
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    outline-offset: 2px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="index.html" aria-label="Go to homepage">
+    <div class="logo" aria-hidden="true">CC</div>
+    <div>
+      <div style="font-weight:800">PULP</div>
+      <div style="font-size:0.8rem;color:var(--muted)">Handmade with love</div>
+    </div>
+  </a>
+  <nav>
+    <a href="index.html#shop">Categories</a>
+    <a href="index.html#about">About</a>
+  </nav>
+</header>
+<main>
+  <h1 id="page-title">Loading...</h1>
+  <p class="description" id="page-description">Please wait while we load the products.</p>
+
+  <section id="product-section" style="max-width:1100px; margin: 24px auto; width: 100%;">
+    <div id="product-grid" class="product-grid" aria-label="Products"></div>
+    <nav id="pagination" aria-label="Product pagination"></nav>
+  </section>
+</main>
+<footer>
+  &copy; 2025 PULP. All rights reserved.
+</footer>
+
+<script>
+  const productsPerPage = 6; // 6 products per page
+  let products = [];
+  let totalPages = 1;
+
+  // Get URL param
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  // Load last page from sessionStorage or default to 1
+  let currentPage = parseInt(sessionStorage.getItem('lastPage')) || 1;
+
+  async function loadProducts() {
+    try {
+      const category = getQueryParam('category') || 'baby_accessories';
+      const jsonFile = `${category}.json`;
+
+      const res = await fetch(jsonFile);
+      const data = await res.json();
+
+      // Set page title and description
+      document.getElementById('page-title').textContent = data.title || 'Products';
+      document.getElementById('page-description').textContent = data.description || '';
+
+      products = data.products || [];
+      products.forEach(p => { p.id = p.id.replace(/_/g, '-'); });
+
+      totalPages = Math.ceil(products.length / productsPerPage);
+
+      // Make sure saved page isn't out of bounds
+      if (currentPage > totalPages) currentPage = totalPages;
+
+      renderPage(currentPage);
+      renderPagination();
+    } catch (error) {
+      console.error('Failed to load products:', error);
+      document.getElementById('product-grid').innerHTML = '<p style="color:var(--muted); text-align:center;">Failed to load products.</p>';
+      document.getElementById('page-title').textContent = 'Failed to load products';
+      document.getElementById('page-description').textContent = '';
+    }
+  }
+
+  function renderPage(page) {
+    currentPage = page;
+    sessionStorage.setItem('lastPage', currentPage);
+
+    const start = (page - 1) * productsPerPage;
+    const end = start + productsPerPage;
+    const pageProducts = products.slice(start, end);
+
+    const grid = document.getElementById('product-grid');
+    grid.innerHTML = '';
+
+    if (window.innerWidth >= 1024) {
+      grid.style.gridTemplateColumns = 'repeat(3, 1fr)';
+    } else if (window.innerWidth >= 600) {
+      grid.style.gridTemplateColumns = 'repeat(2, 1fr)';
+    } else {
+      grid.style.gridTemplateColumns = '1fr';
+    }
+
+    pageProducts.forEach(prod => {
+      const link = document.createElement('a');
+      const category = getQueryParam('category') || 'baby_accessories';
+link.href = prod.link || `template_buy.html?category=${category}&prod=${prod.id}`;
+      link.style.textDecoration = 'none';
+      link.style.color = 'inherit';
+      link.style.display = 'block';
+      link.style.position = 'relative';
+      link.setAttribute('aria-labelledby', `title-${prod.id}`);
+
+      const article = document.createElement('article');
+      article.className = 'product-card';
+      article.tabIndex = 0;
+      article.setAttribute('role', 'group');
+      article.setAttribute('aria-labelledby', `title-${prod.id}`);
+
+      const slider = document.createElement('div');
+      slider.className = 'slider';
+      slider.setAttribute('data-slider', '');
+
+      const slides = document.createElement('div');
+      slides.className = 'slides';
+
+      prod.images.forEach((imgObj, i) => {
+        let src, classes = [], styles = '';
+        if (typeof imgObj === 'string') {
+          src = imgObj;
+        } else {
+          src = imgObj.src;
+          if (imgObj.classes) classes = imgObj.classes;
+          if (imgObj.styles) styles = imgObj.styles;
+        }
+
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = `${prod.title} image ${i + 1}`;
+        classes.forEach(c => img.classList.add(c));
+        if (!classes.length) {
+          img.classList.add(i % 2 === 0 ? 'contain-h' : 'contain-v');
+        }
+        if (styles) img.style.cssText = styles;
+        slides.appendChild(img);
+      });
+
+      slider.appendChild(slides);
+
+      if (prod.outOfStock) {
+        const outOfStockTag = document.createElement('div');
+        outOfStockTag.className = 'out-of-stock-tag';
+        outOfStockTag.textContent = 'Out Of Stock';
+        slider.appendChild(outOfStockTag);
+      }
+
+      const prevBtn = document.createElement('button');
+      prevBtn.className = 'slider-button prev';
+      prevBtn.type = 'button';
+      prevBtn.setAttribute('aria-label', 'Previous image');
+      prevBtn.innerHTML = '&#10094;';
+      slider.appendChild(prevBtn);
+
+      const nextBtn = document.createElement('button');
+      nextBtn.className = 'slider-button next';
+      nextBtn.type = 'button';
+      nextBtn.setAttribute('aria-label', 'Next image');
+      nextBtn.innerHTML = '&#10095;';
+      slider.appendChild(nextBtn);
+
+      article.appendChild(slider);
+
+      const h2 = document.createElement('h2');
+      h2.className = 'product-title';
+      h2.id = `title-${prod.id}`;
+      h2.textContent = prod.title;
+      article.appendChild(h2);
+
+      link.appendChild(article);
+      grid.appendChild(link);
+
+      setupSlider(slider);
+    });
+
+    renderPagination();
+    scrollToTopProduct(100); // pass gap from top if needed
+  }
+
+  function renderPagination() {
+    const pagination = document.getElementById('pagination');
+    pagination.innerHTML = '';
+
+    const prevBtn = document.createElement('button');
+    prevBtn.textContent = 'Prev';
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.addEventListener('click', () => {
+      if (currentPage > 1) renderPage(currentPage - 1);
+    });
+    pagination.appendChild(prevBtn);
+
+    const pageInput = document.createElement('input');
+    pageInput.type = 'number';
+    pageInput.id = 'goto-page';
+    pageInput.min = 1;
+    pageInput.max = totalPages;
+    pageInput.value = currentPage;
+    pageInput.setAttribute('aria-label', 'Go to page number');
+    pageInput.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        let val = parseInt(pageInput.value);
+        if (!isNaN(val)) {
+          val = Math.min(Math.max(val, 1), totalPages);
+          renderPage(val);
+        }
+      }
+    });
+    pagination.appendChild(pageInput);
+
+    const totalSpan = document.createElement('span');
+    totalSpan.textContent = `of ${totalPages}`;
+    pagination.appendChild(totalSpan);
+
+    const nextBtn = document.createElement('button');
+    nextBtn.textContent = 'Next';
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.addEventListener('click', () => {
+      if (currentPage < totalPages) renderPage(currentPage + 1);
+    });
+    pagination.appendChild(nextBtn);
+  }
+
+  function setupSlider(slider) {
+    const slides = slider.querySelector('.slides');
+    const count = slides.children.length;
+    let index = 0;
+
+    function updateSlider() {
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    slider.querySelector('.slider-button.prev').onclick = e => {
+      e.stopPropagation();
+      e.preventDefault();
+      index = (index - 1 + count) % count;
+      updateSlider();
+    };
+
+    slider.querySelector('.slider-button.next').onclick = e => {
+      e.stopPropagation();
+      e.preventDefault();
+      index = (index + 1) % count;
+      updateSlider();
+    };
+
+    slider.querySelectorAll('.slider-button').forEach(button => {
+      button.addEventListener('click', e => {
+        e.stopPropagation();
+        e.preventDefault();
+      });
+    });
+
+    slider.addEventListener('mousedown', e => e.preventDefault());
+
+    let startX = 0, dragging = false;
+    slides.addEventListener('touchstart', e => {
+      startX = e.touches[0].clientX;
+      dragging = true;
+    });
+    slides.addEventListener('touchmove', e => {
+      if (!dragging) return;
+      const diff = e.touches[0].clientX - startX;
+      if (Math.abs(diff) > 40) {
+        index = diff > 0 ? (index - 1 + count) % count : (index + 1) % count;
+        updateSlider();
+        dragging = false;
+      }
+    });
+    slides.addEventListener('touchend', () => dragging = false);
+  }
+
+  function scrollToTopProduct(gap = 50) {
+    const grid = document.getElementById('product-grid');
+    if (!grid) return;
+
+    const lastScroll = parseInt(sessionStorage.getItem('lastScroll')) || 0;
+    if (lastScroll) {
+      window.scrollTo({ top: lastScroll, behavior: 'smooth' });
+      sessionStorage.removeItem('lastScroll');
+    } else {
+      const topPos = grid.getBoundingClientRect().top + window.pageYOffset - gap;
+      window.scrollTo({ top: topPos, behavior: 'smooth' });
+    }
+  }
+
+  // Save scroll when leaving page
+  window.addEventListener('beforeunload', () => {
+    sessionStorage.setItem('lastScroll', window.scrollY);
+  });
+
+  window.addEventListener('resize', () => {
+    const grid = document.getElementById('product-grid');
+    if (window.innerWidth >= 1024) {
+      grid.style.gridTemplateColumns = 'repeat(3, 1fr)';
+    } else if (window.innerWidth >= 600) {
+      grid.style.gridTemplateColumns = 'repeat(2, 1fr)';
+    } else {
+      grid.style.gridTemplateColumns = '1fr';
+    }
+  });
+
+  loadProducts();
+</script>
+</body>
+</html>
+

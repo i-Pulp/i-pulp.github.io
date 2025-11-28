@@ -1,0 +1,71 @@
+{
+  "title": "Crochet Women's Wear",
+  "description": "Handcrafted style meets effortless elegance. Our Crochet Women's Wear collection offers unique textures and beautiful, intricate designs, transforming classic techniques into modern, wearable art. Discover your next statement piece, from breezy to cozy, chic layers.",
+  "products": [
+    {
+      "id": "yellow_purple_shawl",
+      "title": "Yellow Purple Shawl",
+      "price": "₹1,499.00",
+      "description": "A beautifully handcrafted crochet shawl blending warm yellow and soft purple tones. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2RT9QS4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_de1819b7-9c5c-4492-905b-b03cf811639d",
+      "link": "template_buy.html?category=women_accessories&prod=yellow_purple_shawl",
+      "outOfStock": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/94d0fe3724ccb0bf072475a8e432800b45be0c03/Images/Category/Woman_Accessories.png",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/002e9d62e6ba5e1d2ca509284dd4b04c3a08d07d/Images/Category/Women_Accessories/Yellow_Purple_Shawl/Group1.png",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/002e9d62e6ba5e1d2ca509284dd4b04c3a08d07d/Images/Category/Women_Accessories/Yellow_Purple_Shawl/Gemini_Generated_Image_gdkbssgdkbssgdkb.png",
+          "classes": ["contain-v"]
+        }
+      ]
+    },
+    {
+      "id": "cream_shawl",
+      "title": "Cream Shawl",
+      "price": "₹1,299.00",
+      "description": "A soft and cozy cream-colored crochet shawl with intricate stitch detailing. Pairs beautifully with winter outfits and offers premium warmth and comfort.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2RP885F/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
+      "link": "template_buy.html?category=women_accessories&prod=cream_shawl",
+      "outOfStock": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/943afbd935bf2137f6f59fb1dd9c30069e0cd991/Images/Category/Women_Accessories/Cream_Shawl/Gemini_Generated_Image_m1tholm1tholm1th.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/495c47067db9020e870b29ba13241b43485ef5ac/Images/Category/Women_Accessories/Cream_Shawl/Gemini_Generated_Image_br3quybr3quybr3q.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/2f66929b776150a4bd1914bae2f7e1e4b5af517f/Images/Category/Women_Accessories/Cream_Shawl/IMG_20251031_001415_194.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5d3559bc635f5104a227a5e80d514e872b01c329/Images/Category/Women_Accessories/Cream_Shawl/Image.png",
+          "classes": ["contain-v"]
+        }
+      ]
+    },
+    {
+      "id": "pink_shawl",
+      "title": "Pink Shawl",
+      "price": "₹899.00",
+      "description": "A charming pastel pink crochet shawl designed for graceful draping. Lightweight yet warm, ideal for casual outings or gifting.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2RD86JX/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_09be2c09-5129-4547-85fc-e5272a6cedc4",
+      "link": "template_buy.html?category=women_accessories&prod=pink_shawl",
+      "outOfStock": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/bc45e4d9fec8078607b3d0ccc6b042a49ef3c035/Images/Category/Women_Accessories/Pink_Shawl/Gemini_Generated_Image_2p2jgg2p2jgg2p2j.jpg",
+          "classes": ["contain-v"]
+        }
+      ]
+    }
+  ]
+}

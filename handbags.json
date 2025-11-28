@@ -1,0 +1,33 @@
+{
+  "title": "Crochet Handbags",
+  "description": "Handcrafted crochet handbag. Blends traditional art with modern style. Made with soft, durable yarn for a unique texture. Perfect for a Boho-chic look or casual use. Lightweight and robust for essentials.",
+  "products": [
+    {
+      "id": "pink_tote_bag",
+      "title": "Pink Tote Bag",
+      "price": "₹1,499.00",
+      "description": "A beautifully woven Pink Tote Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "link": "template_buy.html?category=handbags&prod=pink_tote_bag",
+      "outOfStock": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/Pink_Tote_Bag/11.jpg",
+          "classes": ["contain-h"],
+          "styles": "transform: scale(1.9);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/Pink_Tote_Bag/12.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/Pink_Tote_Bag/13.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/ffc3c961a4ea523bb9c2fa33334fc75df7a676c9/Images/Category/Handbags/Pink_Tote_Bag/14.png",
+          "classes": ["contain-h"]
+        }
+      ]
+    }
+  ]
+}
