@@ -63,7 +63,7 @@
       "title": "Swaddling & Swinging Wrap",
       "price": "₹699.00",
       "description": "A soft, secure crochet swaddling and swinging wrap designed to keep your baby snug and relaxed. Ideal for soothing newborns and providing gentle warmth and comfort.",
-      "amazonLink": "https://www.amazon.com",
+      "amazonLink": "",
       "link": "template_buy.html?category=baby_accessories&prod=swaddling_swinging",
       "images": [
         {
@@ -78,7 +78,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Swaddling_Swinging/11.jpg",
           "classes": ["contain-v"]
         }
-      ]
+      ],
+      "outOfStock": true
     },
     {
       "id": "blue_yellow_poncho",
@@ -111,7 +112,7 @@
       "title": "Pink Poncho",
       "price": "₹599.00",
       "description": "A sweet and stylish pink crochet poncho, soft on delicate skin and perfect for light winter wear. Handcrafted with love for everyday comfort.",
-      "amazonLink": "https://www.amazon.com",
+      "amazonLink": "https://www.amazon.in/Crochet-Sweater-Hairband-Knitted-Woollen/dp/B0FZ9JFZSG",
       "link": "template_buy.html?category=baby_accessories&prod=pink_poncho",
       "images": [
         {
@@ -189,7 +190,7 @@
       "title": "Yellow Romper / Jumpsuit",
       "price": "₹599.00",
       "description": "A bright and comfy yellow romper crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://www.amazon.in",
+      "amazonLink": "",
       "link": "template_buy.html?category=baby_accessories&prod=romper",
       "images": [
         {
@@ -200,7 +201,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Romper/12.jpg",
           "classes": ["contain-h"]
         }
-      ]
+      ],
+      "outOfStock": true
     },
     {
       "id": "maroon_purple_frock",
@@ -226,7 +228,7 @@
       "title": "Off-White Half Sweater",
       "price": "₹699.00",
       "description": "A stylish off-white half sweater perfect for layering. Lightweight yet warm, making it ideal for mild winters or breezy evenings.",
-      "amazonLink": "https://www.amazon.in",
+      "amazonLink": "",
       "link": "template_buy.html?category=baby_accessories&prod=half_sweater",
       "images": [
         {
@@ -251,7 +253,8 @@
           "classes": ["contain-v"],
           "styles": "transform: scale(1.4);"
         }
-      ]
+      ],
+      "outOfStock": true
     }
   ]
 }

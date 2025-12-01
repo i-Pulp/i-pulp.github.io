@@ -9,7 +9,7 @@
       "description": "A beautifully woven Pink Tote Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
       "amazonLink": "https://www.amazon.in/",
       "link": "template_buy.html?category=handbags&prod=pink_tote_bag",
-      "outOfStock": false,
+      "outOfStock": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/Pink_Tote_Bag/11.jpg",
