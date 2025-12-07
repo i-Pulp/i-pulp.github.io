@@ -188,9 +188,9 @@
     {
       "id": "romper",
       "title": "Yellow Romper / Jumpsuit",
-      "price": "₹599.00",
+      "price": "₹1,399.00",
       "description": "A bright and comfy yellow romper crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "",
+      "amazonLink": "https://www.amazon.in/Crochet-Knitted-Ocassion-Christmas-Adorable/dp/B0G4N8SRYY",
       "link": "template_buy.html?category=baby_accessories&prod=romper",
       "images": [
         {
@@ -202,7 +202,7 @@
           "classes": ["contain-h"]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
       "id": "maroon_purple_frock",
@@ -226,9 +226,9 @@
     {
       "id": "half_sweater",
       "title": "White Half Sweater",
-      "price": "₹699.00",
+      "price": "₹599.00",
       "description": "A stylish white half sweater perfect for layering. Lightweight yet warm, making it ideal for mild winters or breezy evenings.",
-      "amazonLink": "",
+      "amazonLink": "https://www.amazon.in/Crochet-Sweater-Knitted-Woollen-Christmas/dp/B0G4NCMDLY",
       "link": "template_buy.html?category=baby_accessories&prod=half_sweater",
       "images": [
         {
@@ -254,7 +254,7 @@
           "styles": "transform: scale(1.4);"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     }
   ]
 }
