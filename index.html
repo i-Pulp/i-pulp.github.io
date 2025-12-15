@@ -1,206 +1,309 @@
+<!-- this is index.html-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>PULP - Handmade Crochet Products</title>
-  <meta name="description" content="Handmade crochet items: Baby Crochet, Handbags, Women Crochet.">
+  <meta name="description" content="Handmade crochet items: Baby Crochet, Handbags, Women Crochet." />
 
   <style>
     :root{
-      --bg:#f7f6f4;
-      --card:#ffffff;
-      --accent:#c76a7c;
-      --accent-dark:#a44e5d;
-      --muted:#6b6b6b;
-      --radius:12px;
-      --shadow: 0 6px 18px rgba(16,24,40,0.08);
-    }
-    *{box-sizing:border-box}
-    body {
-      margin: 0;
-      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-      background: linear-gradient(180deg, var(--bg), #efecec 120px);
-      color: #222;
-      line-height: 1.4;
-      min-height: 100vh; 
-      display: flex;
-      flex-direction: column; 
-    }
+  --bg:#f7f6f4;
+  --card:#ffffff;
+  --accent:#c76a7c;
+  --accent-dark:#a44e5d;
+  --muted:#6b6b6b;
+  --radius:12px;
+  --shadow: 0 6px 18px rgba(16,24,40,0.08);
+}
+*{box-sizing:border-box}
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, var(--bg), #efecec 120px);
+  color: #222;
+  line-height: 1.4;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+}
 
-    .wrap {
-      max-width: 1100px;
-      margin: 18px auto;
-      padding: 0 20px 60px; 
-      flex-grow: 1; 
-    }
+.wrap {
+  max-width: 1100px;
+  margin: 18px auto;
+  padding: 0 20px 40px;
+  flex-grow: 1; 
+}
 
-    header{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      padding:18px 24px;
-      position:sticky;
-      top:0;
-      backdrop-filter: blur(6px);
-      background: rgba(255,255,255,0.8);
-      box-shadow: 0 2px 8px rgba(16,24,40,0.04);
-      z-index:100;
-    }
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:18px 24px;
+  position:sticky;
+  top:0;
+  backdrop-filter: blur(6px);
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 2px 8px rgba(16,24,40,0.04);
+  z-index:100;
+}
 
-    .brand{
-      display:flex;
-      align-items:center;
-      gap:12px;
-      text-decoration:none;
-      color:inherit;
-    }
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  text-decoration:none;
+  color:inherit;
+}
 
-    .logo{
-      width:44px; height:44px;
-      background: linear-gradient(135deg,var(--accent),var(--accent-dark));
-      border-radius:10px;
-      display:grid;
-      place-items:center;
-      color:white;
-      font-weight:700;
-      box-shadow: 0 6px 16px rgba(199,106,124,0.18);
-    }
+.logo{
+  width:44px; height:44px;
+  background: linear-gradient(135deg,var(--accent),var(--accent-dark));
+  border-radius:10px;
+  display:grid;
+  place-items:center;
+  color:white;
+  font-weight:700;
+  box-shadow: 0 6px 16px rgba(199,106,124,0.18);
+}
 
-    nav a{
-      color:var(--muted);
-      text-decoration:none;
-      font-weight:600;
-      margin-right:16px;
-      font-size:0.95rem;
-      cursor:pointer;
-    }
+nav a{
+  color:var(--muted);
+  text-decoration:none;
+  font-weight:600;
+  margin-right:16px;
+  font-size:0.95rem;
+  cursor:pointer;
+}
 
-    .hero {
-      max-width: 1100px;
-      margin: 22px auto;
-      display: flex;
-      gap: 24px;
-      align-items: center;
-      padding: 28px;
-      border-radius: var(--radius);
-      background: rgba(255, 255, 255, 0.9);
-      box-shadow: var(--shadow);
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
+.hero {
+  max-width: 1100px;
+  margin: 22px auto;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 28px;
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow);
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-    .hero .hero-text { 
-        max-width: 50%; 
-        padding-right: 20px; 
-    }
+.hero .hero-text { 
+    max-width: 50%; 
+    padding-right: 20px; 
+}
 
-    .hero .visual {
-        width: 320px;
-    }
+.hero .visual {
+    width: 320px;
+}
 
-    .hero h1{
-      margin:0 0 8px 0;
-      font-size:clamp(1.6rem, 2.8vw, 2.4rem);
-    }
+.hero h1{
+  margin:0 0 8px 0;
+  font-size:clamp(1.6rem, 2.8vw, 2.4rem);
+}
 
-    .tagline{color:var(--muted); margin-bottom:16px}
+.tagline{color:var(--muted); margin-bottom:16px}
 
-    .cta{display:flex; gap:10px}
+.cta{display:flex; gap:10px}
 
-    .btn{
-      background:var(--accent);
-      color:white;
-      border:none;
-      padding:10px 14px;
-      border-radius:10px;
-      cursor:pointer;
-      font-weight:700;
-      box-shadow: 0 8px 20px rgba(199,106,124,0.18);
-    }
+.btn{
+  background:var(--accent);
+  color:white;
+  border:none;
+  padding:10px 14px;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:700;
+  box-shadow: 0 8px 20px rgba(199,106,124,0.18);
+}
 
-    .btn.secondary{
-      background:white;
-      color:var(--accent-dark);
-      border:1px solid rgba(164,78,93,0.12);
-      font-weight:600;
-    }
+.btn.secondary{
+  background:white;
+  color:var(--accent-dark);
+  border:1px solid rgba(164,78,93,0.12);
+  font-weight:600;
+}
 
-    .hero .visual{
-      border-radius:14px;
-      overflow:hidden;
-      box-shadow: 0 10px 30px rgba(13,14,18,0.06);
-    }
+.hero .visual{
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow: 0 10px 30px rgba(13,14,18,0.06);
+}
 
-    .hero img{width:100%;display:block}
+.hero img{width:100%;display:block}
 
-    .section-title{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      margin-bottom:14px;
-    }
+.section-title{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:14px;
+}
 
-    .grid{
-      display:grid;
-      grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
-      gap:22px;
-    }
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap:22px;
+}
 
-    .card{
-      background:var(--card);
-      border-radius:12px;
-      padding:14px;
-      box-shadow: 0 6px 22px rgba(16,24,40,0.04);
-      display:flex;
-      flex-direction:column;
-      gap:10px;
-      transition:transform .18s, box-shadow .18s;
-    }
+.card{
+  background:var(--card);
+  border-radius:12px;
+  padding:14px;
+  box-shadow: 0 6px 22px rgba(16,24,40,0.04);
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  transition:transform .18s, box-shadow .18s;
+}
 
-    .card:hover{
-      transform:translateY(-6px);
-      box-shadow: 0 18px 40px rgba(16,24,40,0.08);
-    }
+.card:hover{
+  transform:translateY(-6px);
+  box-shadow: 0 18px 40px rgba(16,24,40,0.08);
+}
 
-    .thumb img{
-      width:100%;
-      border-radius:10px;
-      height:180px;
-      object-fit:cover;
-    }
+.thumb img{
+  width:100%;
+  border-radius:10px;
+  height:180px;
+  object-fit:cover;
+}
 
-    footer {
-      margin-top: auto;
-      padding: 28px 20px;
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
+.new-items-slider-wrapper {
+  background: white;
+  border-radius: var(--radius);
+  padding: 16px 0;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 22px rgba(16,24,40,0.04);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 
-    @media (max-width:880px){
-      .hero{
-        flex-direction:column;
-        text-align:center;
-      }
-      .hero .hero-text {
-        order: 1;
-        max-width: 100%;
-        padding-right: 0;
-        margin-bottom: 20px;
-      }
-      .hero .visual{
-        order: 2;
-        width:88%;
-        margin-bottom: 20px;
-      }
-      .hero .intro {
-        order: 3;
-        width: 100%;
-        justify-content: center;
-        margin-top: 0;
-      }
-    }
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.new-items-slider {
+  display: flex;
+  gap: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+/* Hide scrollbar for WebKit browsers */
+.new-items-slider-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.new-item-card {
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 12px;
+  flex: 0 0 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.18s, box-shadow 0.18s;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.new-item-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(16,24,40,0.08);
+}
+.new-item-thumb img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+.new-item-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #222;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+/* NEW! label on top-left */
+.new-item-label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: var(--accent);
+  color: white;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  user-select: none;
+  pointer-events: none;
+  box-shadow: 0 2px 6px rgba(199,106,124,0.4);
+  z-index: 5;
+}
+
+footer {
+  margin-top: auto;
+  padding: 28px 20px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0 -4px 10px rgba(16,24,40,0.04);
+  border-top: 1px solid rgba(16,24,40,0.08);
+}
+
+/* Remove blue focus outline and tap highlight on buttons, links, and new-item-cards */
+button, a, .new-item-card {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.new-item-card:focus,
+button:focus,
+a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+@media (max-width:880px){
+  .hero{
+    flex-direction:column;
+    text-align:center;
+  }
+  .hero .hero-text {
+    order: 1;
+    max-width: 100%;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .hero .visual{
+    order: 2;
+    width:88%;
+    margin-bottom: 20px;
+  }
+  .hero .intro {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+  }
+}
   </style>
 </head>
 
@@ -242,6 +345,21 @@
     </div>
   </section>
 
+  <!-- New Items Section -->
+  <div class="wrap" id="new-items">
+    <div class="section-title" style="margin-bottom: 8px;">
+      <h2 style="margin:0">NEW ITEMS</h2>
+      <div style="color:var(--muted); font-size:0.95rem">Discover our latest handmade crochet products</div>
+    </div>
+
+    <div class="new-items-slider-wrapper" aria-label="New Items" role="region">
+      <div class="new-items-slider">
+        <!-- Product cards inserted here by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Categories Section -->
   <div class="wrap" id="shop">
     <div class="section-title">
       <h2 style="margin:0">CATEGORIES</h2>
@@ -249,52 +367,52 @@
     </div>
 
     <div class="grid">
-        
+
       <!-- CATEGORY CARDS -->
       <!-- 1. Baby Product -->
       <article class="card">
         <div class="thumb">
-          <img src="https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0997f69cfa6363d61e97eb1977c287120f1ccc1d/Images/Category/Baby_Accessories.png">
+          <img src="https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0997f69cfa6363d61e97eb1977c287120f1ccc1d/Images/Category/Baby_Accessories.png" alt="Baby Crochet & Accessories">
         </div>
-        <div class="title"style="font-weight:400;"><strong>Baby Crochet & Accessories</strong></div>
+        <div class="title" style="font-weight:400;"><strong>Baby Crochet & Accessories</strong></div>
         <div class="desc">Charming crochet wearables and decor paired with practical everyday accessories for the nursery.</div>
-        <div class="controls"style="margin-top: 8px;">
+        <div class="controls" style="margin-top: 8px;">
           <a class="btn" href="template_products.html?category=baby_accessories" style="text-decoration:none;">View items</a>
         </div>
       </article>
 
-        <!-- 4. Handbags -->
+      <!-- 4. Handbags -->
       <article class="card">
         <div class="thumb">
-          <img src="https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0997f69cfa6363d61e97eb1977c287120f1ccc1d/Images/Category/Bags.png">
+          <img src="https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0997f69cfa6363d61e97eb1977c287120f1ccc1d/Images/Category/Bags.png" alt="Crochet Handbags">
         </div>
-        <div class="title"style="font-weight:400;"><strong>Crochet Handbags</strong></div>
+        <div class="title" style="font-weight:400;"><strong>Crochet Handbags</strong></div>
         <div class="desc">Unique, handcrafted handbags with texture and charm.</div>
-        <div class="controls"style="margin-top: 8px;">
+        <div class="controls" style="margin-top: 8px;">
           <a class="btn" href="template_products.html?category=handbags" style="text-decoration:none;">View items</a>
         </div>
       </article>
 
-        <!-- 2. Women's Wear -->
+      <!-- 2. Women's Wear -->
       <article class="card">
         <div class="thumb">
-          <img src="https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0997f69cfa6363d61e97eb1977c287120f1ccc1d/Images/Category/Woman_Accessories.png">
+          <img src="https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0997f69cfa6363d61e97eb1977c287120f1ccc1d/Images/Category/Woman_Accessories.png" alt="Crochet Women's Wear">
         </div>
-        <div class="title"style="font-weight:400;"><strong>Crochet Women's Wear</strong></div>
+        <div class="title" style="font-weight:400;"><strong>Crochet Women's Wear</strong></div>
         <div class="desc">Shawls, mufflers, socks & more—soft and cozy.</div>
-        <div class="controls"style="margin-top: 8px;">
+        <div class="controls" style="margin-top: 8px;">
           <a class="btn" href="template_products.html?category=women_accessories" style="text-decoration:none;">View items</a>
         </div>
       </article>
 
-         <!-- 4. Bal Gopal -->
+      <!-- 4. Bal Gopal -->
       <article class="card">
         <div class="thumb">
-          <img src="https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f78ba1c2b4441cd1fe98eff767ace13168e1578b/Images/Category/bal_gopal.png" alt="">
+          <img src="https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f78ba1c2b4441cd1fe98eff767ace13168e1578b/Images/Category/bal_gopal.png" alt="Bal Gopal Crochet Poshak">
         </div>
-        <div class="title"style="font-weight:400;"><strong>Bal Gopal Crochet Poshak</strong></div>
-        <div class="desc"style="margin-top: -8px;">Handcrafted attire for Thakur Ji with color and devotion.</div>
-        <div class="controls"style="margin-top: 8px;">
+        <div class="title" style="font-weight:400;"><strong>Bal Gopal Crochet Poshak</strong></div>
+        <div class="desc" style="margin-top: -8px;">Handcrafted attire for Thakur Ji with color and devotion.</div>
+        <div class="controls" style="margin-top: 8px;">
           <a class="btn" href="template_products.html?category=bal_gopal" style="text-decoration:none;">View items</a>
         </div>
       </article>
@@ -302,62 +420,61 @@
     </div>
   </div>
 
- <!-- ABOUT & CONTACT SECTION -->
-<section style="max-width:1100px;margin:40px auto;padding:40px 20px;background:rgba(255,255,255,0.95);border-radius:12px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:40px;">
+  <!-- ABOUT & CONTACT SECTION -->
+  <section style="max-width:1100px;margin:40px auto;padding:40px 20px;background:rgba(255,255,255,0.95);border-radius:12px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:40px;">
 
-  <!-- About PULP -->
-  <div style="flex:1; min-width:250px;"id="about">
-    <h3 style="margin-bottom:16px;">About PULP</h3>
-    <p style="color:var(--muted);max-width:800px;line-height:1.6;">
-      PULP is a small studio crafting each piece by hand using high-quality yarns and mindful techniques. Each order supports slow, sustainable making, stitched with care and attention to detail. Our mission is to create unique, cozy crochet products that bring joy to your everyday life.
-    </p>
-  </div>
+    <!-- About PULP -->
+    <div style="flex:1; min-width:250px;" id="about">
+      <h3 style="margin-bottom:16px;">About PULP</h3>
+      <p style="color:var(--muted);max-width:800px;line-height:1.6;">
+        PULP is a small studio crafting each piece by hand using high-quality yarns and mindful techniques. Each order supports slow, sustainable making, stitched with care and attention to detail. Our mission is to create unique, cozy crochet products that bring joy to your everyday life.
+      </p>
+    </div>
 
-  <!-- Contact Us -->
-  <div style="flex:1; min-width:250px;"id="contact_us">
-    <h3 style="margin-bottom:16px;">Contact Us</h3>
-    <p style="color:var(--mutedl);margin-bottom:24px;">
-      Have questions or want to connect? Reach out via any of the following:
-    </p>
-    <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;color:var(--muted);">
-      <li>
-        <a href="https://instagram.com/_pulp_store" target="_blank" style="text-decoration:none;color:var(--accent);display:flex;align-items:center;gap:6px;font-size:0.9rem;">
-          <span style="display:flex;align-items:center;justify-content:center;width:24px;height:24px;background:rgba(199,106,124,0.1);border-radius:50%;">
-            <img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Instagram" style="width:14px;height:14px;">
-          </span>
-     Instagram
-        </a>
-      </li>
-      <li>
-        <a href="mailto:i.pulp.help@gmail.com" style="text-decoration:none;color:var(--accent);display:flex;align-items:center;gap:6px;font-size:0.9rem;">
-          <span style="display:flex;align-items:center;justify-content:center;width:24px;height:24px;background:rgba(199,106,124,0.1);border-radius:50%;">
-            <img src="https://cdn-icons-png.flaticon.com/24/561/561127.png" alt="Email" style="width:14px;height:14px;">
-          </span>
-     Gmail
-        </a>
-      </li>
-      <li>
-  <div style="display:flex;flex-direction:column;gap:4px;font-size:0.9rem;">
-    <span style="color:var(--muted); font-size:0.8rem;">Naini, Prayagraj, UttarPradesh 211003</span>
-    <a href="tel:+91 92350 52087" style="text-decoration:none;color:var(--accent);display:flex;align-items:center;gap:6px;">
-      <span style="display:flex;align-items:center;justify-content:center;width:24px;height:24px;background:rgba(199,106,124,0.1);border-radius:50%;">
-        <img src="https://cdn-icons-png.flaticon.com/24/483/483947.png" alt="Phone" style="width:14px;height:14px;">
-      </span>
-      +91 92350 52087
-    </a>
-  </div>
-</li>
-    </ul>
-  </div>
+    <!-- Contact Us -->
+    <div style="flex:1; min-width:250px;" id="contact_us">
+      <h3 style="margin-bottom:16px;">Contact Us</h3>
+      <p style="color:var(--mutedl);margin-bottom:24px;">
+        Have questions or want to connect? Reach out via any of the following:
+      </p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;color:var(--muted);">
+        <li>
+          <a href="https://www.instagram.com/pulponlinestore/?utm_source=ig_web_button_share_sheet" target="_blank" style="text-decoration:none;color:var(--accent);display:flex;align-items:center;gap:6px;font-size:0.9rem;">
+            <span style="display:flex;align-items:center;justify-content:center;width:24px;height:24px;background:rgba(199,106,124,0.1);border-radius:50%;">
+              <img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Instagram" style="width:14px;height:14px;">
+            </span>
+         Instagram
+          </a>
+        </li>
+        <li>
+          <a href="mailto:i.pulp.help@gmail.com" style="text-decoration:none;color:var(--accent);display:flex;align-items:center;gap:6px;font-size:0.9rem;">
+            <span style="display:flex;align-items:center;justify-content:center;width:24px;height:24px;background:rgba(199,106,124,0.1);border-radius:50%;">
+              <img src="https://cdn-icons-png.flaticon.com/24/561/561127.png" alt="Email" style="width:14px;height:14px;">
+            </span>
+         Gmail
+          </a>
+        </li>
+        <li>
+          <div style="display:flex;flex-direction:column;gap:4px;font-size:0.9rem;">
+            <span style="color:var(--muted); font-size:0.8rem;">Naini, Prayagraj, UttarPradesh 211003</span>
+            <a href="tel:+91 92350 52087" style="text-decoration:none;color:var(--accent);display:flex;align-items:center;gap:6px;">
+              <span style="display:flex;align-items:center;justify-content:center;width:24px;height:24px;background:rgba(199,106,124,0.1);border-radius:50%;">
+                <img src="https://cdn-icons-png.flaticon.com/24/483/483947.png" alt="Phone" style="width:14px;height:14px;">
+              </span>
+              +91 92350 52087
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-</section>
+  </section>
 
-<footer style="margin-top:24px;padding:28px 20px;text-align:center;color:var(--muted);font-size:0.9rem;background:rgba(255,255,255,0.9);box-shadow:0 -4px 10px rgba(16,24,40,0.04);border-top:1px solid rgba(16,24,40,0.08);">
-  &copy; 2025 PULP. All rights reserved.
-</footer>
-
+  <footer style="margin-top:24px;padding:28px 20px;text-align:center;color:var(--muted);font-size:0.9rem;background:rgba(255,255,255,0.9);box-shadow:0 -4px 10px rgba(16,24,40,0.04);border-top:1px solid rgba(16,24,40,0.08);">
+    &copy; 2025 PULP. All rights reserved.
+  </footer>
 <script>
-function scrollToAbout(ElementId) {
+    function scrollToAbout(ElementId) {
   const about = document.getElementById(ElementId);
   const offset = 125;
   const top = about.offsetTop - offset;
@@ -367,6 +484,87 @@ function scrollToAbout(ElementId) {
     behavior: "smooth"
   });
 }
+async function loadNewItems() {
+
+  try {
+
+    const response = await fetch('new_items.json');
+
+    if (!response.ok) throw new Error('Failed to load new_items.json');
+
+    const data = await response.json();
+    const slides = document.querySelector('.new-items-slider');
+
+    slides.innerHTML = '';
+    data.products.forEach(prod => {
+
+      const link = document.createElement('a');
+
+      link.href = `template_buy.html?category=new_items&prod=${prod.id}`;
+
+      link.className = 'new-item-card';
+
+      link.setAttribute('aria-label', prod.title);
+      const label = document.createElement('div');
+
+      label.className = 'new-item-label';
+
+      label.textContent = 'NEW!';
+
+      link.appendChild(label);
+      const thumb = document.createElement('div');
+
+      thumb.className = 'new-item-thumb';
+      if (prod.images && prod.images.length) {
+
+        const imgData = prod.images[0];
+
+        const img = document.createElement('img');
+
+        img.src = imgData.src || '';
+
+        img.alt = prod.title || 'New Item';
+
+        if (imgData.classes && Array.isArray(imgData.classes)) {
+
+          img.className = imgData.classes.join('');
+
+        }
+
+        if (imgData.styles) {
+
+          img.style.cssText = imgData.styles;
+
+        }
+
+        thumb.appendChild(img);
+
+      }
+
+      link.appendChild(thumb);
+      const title = document.createElement('h3');
+
+      title.className = 'new-item-title';
+
+      title.textContent = prod.title;
+
+      link.appendChild(title);
+      slides.appendChild(link);
+
+    });
+
+  } catch (err) {
+
+    console.error(err);
+
+    const container = document.getElementById('new-items-grid');
+
+    if (container) container.innerHTML = '<p style="color:var(--muted);">Failed to load new items.</p>';
+
+  }
+
+}
+loadNewItems();
 </script>
 
 </body>

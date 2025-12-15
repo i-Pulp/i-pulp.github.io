@@ -65,7 +65,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/bc45e4d9fec8078607b3d0ccc6b042a49ef3c035/Images/Category/Women_Accessories/Pink_Shawl/Gemini_Generated_Image_2p2jgg2p2jgg2p2j.jpg",
           "classes": ["contain-v"]
         }
-      ]
+      ],
+      "outOfStock":true
     }
   ]
 }
