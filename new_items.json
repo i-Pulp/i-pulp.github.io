@@ -1,6 +1,60 @@
 {
   "products": [
     {
+      "id": "Gadda_white_multicolour",
+      "title": "Bal Gopal Blanket & Bedsheet Crochet",
+      "price": "₹599.0",
+      "description": "Sizes 4 & 5.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G4GR6Z9R/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
+      "link": "template_buy.html?category=bal_gopal&prod=Gadda_white_multicolour",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/1.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/2.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/3.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/4.jpg",
+          "classes": ["contain-v"]
+        }
+      ]
+    },
+    {
+      "id": "Gadda_white_pink",
+      "title": "Bal Gopal Blanket & Bedsheet Crochet",
+      "price": "₹599.0",
+      "description": "Sizes 6 & 7.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G4GR6Z9R/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
+      "link": "template_buy.html?category=bal_gopal&prod=Gadda_white_pink",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/1.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/2.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/3.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/4.jpg",
+          "classes": ["contain-v"]
+        }
+      ]
+    },
+    {
       "id": "Pink_White",
       "title": "White & Pink Frock",
       "price": "₹1,299.00",
@@ -52,24 +106,6 @@
         }
       ],
       "outOfStock":true
-    }, 
-    {
-      "id": "romper",
-      "title": "Yellow Romper / Jumpsuit",
-      "price": "₹1,399.00",
-      "description": "A bright and comfy yellow romper crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://www.amazon.in/Crochet-Knitted-Ocassion-Christmas-Adorable/dp/B0G4N8SRYY",
-      "link": "template_buy.html?category=baby_accessories&prod=romper",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Romper/11.jpg",
-          "classes": ["contain-h"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Romper/12.jpg",
-          "classes": ["contain-h"]
-        }
-      ]
     }
   ]
 }
