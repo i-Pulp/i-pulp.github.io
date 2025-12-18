@@ -9,7 +9,7 @@
       "description": "A beautifully handcrafted crochet shawl blending warm yellow and soft purple tones. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
       "amazonLink": "https://www.amazon.in/gp/product/B0G2RT9QS4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_de1819b7-9c5c-4492-905b-b03cf811639d",
       "link": "template_buy.html?category=women_accessories&prod=yellow_purple_shawl",
-      "outOfStock": false,
+      "outOfStock": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/94d0fe3724ccb0bf072475a8e432800b45be0c03/Images/Category/Woman_Accessories.png",
@@ -59,14 +59,13 @@
       "description": "A charming pastel pink crochet shawl designed for graceful draping. Lightweight yet warm, ideal for casual outings or gifting.",
       "amazonLink": "https://www.amazon.in/gp/product/B0G2RD86JX/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_09be2c09-5129-4547-85fc-e5272a6cedc4",
       "link": "template_buy.html?category=women_accessories&prod=pink_shawl",
-      "outOfStock": false,
+      "outOfStock": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/bc45e4d9fec8078607b3d0ccc6b042a49ef3c035/Images/Category/Women_Accessories/Pink_Shawl/Gemini_Generated_Image_2p2jgg2p2jgg2p2j.jpg",
           "classes": ["contain-v"]
         }
       ],
-      "outOfStock":true
     }
   ]
 }
