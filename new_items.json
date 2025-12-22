@@ -37,6 +37,11 @@
       "outOfStock": true,
       "images": [
         {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4c2d7ad5ec91d71e1d2404086188a57dd206a822/Images/Category/Bal_Gopal/Gadda_white_pink/0.png",
+          "classes": ["contain-v"],
+          "styles": "object-position: 50% 80%;"
+        },
+        {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/1.jpg",
           "classes": ["contain-v"]
         },
