@@ -61,9 +61,9 @@
     {
       "id": "swaddling_swinging",
       "title": "Swaddling & Swinging Wrap",
-      "price": "₹699.00",
+      "price": "₹999.00",
       "description": "A soft, secure crochet swaddling and swinging wrap designed to keep your baby snug and relaxed. Ideal for soothing newborns and providing gentle warmth and comfort.",
-      "amazonLink": "",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBNC4ZL4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_47651424-d21d-46ec-b4d4-5216d04b5021",
       "link": "template_buy.html?category=baby_accessories&prod=swaddling_swinging",
       "images": [
         {
@@ -79,7 +79,7 @@
           "classes": ["contain-v"]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
       "id": "blue_yellow_poncho",
@@ -105,7 +105,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/13.jpg",
           "classes": ["contain-v"]
         }
-      ]
+      ],
+      "outOfStock": true
     },
     {
       "id": "pink_poncho",
@@ -139,7 +140,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/13.jpg",
           "classes": ["contain-h"]
         }
-      ]
+      ],
+      "outOfStock": true
     },
     {
       "id": "white_blue_frock",
@@ -259,9 +261,9 @@
     {
       "id": "Pink_White",
       "title": "White & Pink Frock",
-      "price": "₹1,299.00",
+      "price": "₹1,499.00",
       "description": "A beautifully crafted white & pink frock with soft yarn detailing. Perfect for festive occasions, photoshoots, or gifting.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G4FND5DW/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_3dad4fd9-ef2b-49db-b3dc-9bbc20f328b6",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBLP7WJR/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
       "link": "template_buy.html?category=baby_accessories&prod=Pink_White",
       "images": [
         {
@@ -284,7 +286,7 @@
           "styles": "transform: scale(1.2);"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
       "id": "Black_White",
