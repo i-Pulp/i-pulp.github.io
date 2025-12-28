@@ -291,9 +291,9 @@
     {
       "id": "Black_White",
       "title": "Black & White Frock",
-      "price": "₹1,099.00",
+      "price": "₹1,199.00",
       "description": "A comfy black & white frock crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://www.amazon.in/Crochet-Knitted-Ocassion-Christmas-Adorable/dp/B0G4N8SRYY",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
       "link": "template_buy.html?category=baby_accessories&prod=Black_White",
       "images": [
         {
@@ -309,7 +309,7 @@
           "classes": ["contain-v"]
         }
       ],
-      "outOfStock":true
+      "outOfStock":false
     }
   ]
 }
