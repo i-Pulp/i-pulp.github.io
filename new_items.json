@@ -1,6 +1,143 @@
 {
   "products": [
     {
+      "id": "White_Muffler",
+      "title": "White Muffler",
+      "price": "₹1,099.00",
+      "description": "A beautifully handcrafted crochet muffler. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2RT9QS4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_de1819b7-9c5c-4492-905b-b03cf811639d",
+      "link": "template_buy.html?category=women_accessories&prod=White_Muffler",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_White/1.jpg",
+          "classes": [],
+          "styles": "object-position: 50% 50%;object-fit: contain;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_White/2.jpg",
+          "classes": []
+        }
+      ]
+    },
+    {
+      "id": "Muffler_Multi",
+      "title": "MultiColour Muffler",
+      "price": "₹1,099.00",
+      "description": "A beautifully handcrafted crochet muffler with blending colours. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2RT9QS4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_de1819b7-9c5c-4492-905b-b03cf811639d",
+      "link": "template_buy.html?category=women_accessories&prod=Muffler_Multi",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_Multi/1.jpg",
+          "classes": [],
+          "styles": "object-position: 50% 80%;object-fit: contain;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_Multi/2.jpg",
+          "classes": []
+        }
+      ]
+    },
+    {
+      "id": "Triangle_Poncho",
+      "title": "Colourfull Poncho",
+      "price": "₹1,199.00",
+      "description": "A unique comfy poncho crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "link": "template_buy.html?category=baby_accessories&prod=Triangle_Poncho",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "object-position: 50% 30%;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/2.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/3.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "Pink_White_Poncho",
+      "title": "Pink & White Poncho",
+      "price": "₹1,199.00",
+      "description": "A comfy poncho crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "link": "template_buy.html?category=baby_accessories&prod=Pink_White_Poncho",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/1.jpg",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "object-position: 50% 80%;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/2.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/3.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/4.png",
+          "classes": [
+            "contain-v"
+          ]
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "Red_White_Frock",
+      "title": "Red & White Frock",
+      "price": "₹1,199.00",
+      "description": "A comfy red & white frock crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "link": "template_buy.html?category=baby_accessories&prod=Red_White_Frock",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/1.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/2.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/3.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/4.png",
+          "classes": [
+            "contain-v"
+          ]
+        }
+      ],
+      "outOfStock": true
+    },
+    {
       "id": "Gadda_white_multicolour",
       "title": "Bal Gopal Blanket & Bedsheet Crochet",
       "price": "₹599.0",

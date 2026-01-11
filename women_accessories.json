@@ -3,6 +3,49 @@
   "description": "Handcrafted style meets effortless elegance. Our Crochet Women's Wear collection offers unique textures and beautiful, intricate designs, transforming classic techniques into modern, wearable art. Discover your next statement piece, from breezy to cozy, chic layers.",
   "products": [
     {
+      "id": "White_Muffler",
+      "title": "White Muffler",
+      "price": "₹1,099.00",
+      "description": "A beautifully handcrafted crochet muffler. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2RT9QS4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_de1819b7-9c5c-4492-905b-b03cf811639d",
+      "link": "template_buy.html?category=women_accessories&prod=White_Muffler",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_White/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.2);"
+
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_White/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.3);"
+        }
+      ]
+    },
+    {
+      "id": "Muffler_Multi",
+      "title": "MultiColour Muffler",
+      "price": "₹1,099.00",
+      "description": "A beautifully handcrafted crochet muffler with blending colours. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2RT9QS4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_de1819b7-9c5c-4492-905b-b03cf811639d",
+      "link": "template_buy.html?category=women_accessories&prod=Muffler_Multi",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_Multi/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.2);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_Multi/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.3);"
+        }
+      ]
+    },
+    {
       "id": "yellow_purple_shawl",
       "title": "Yellow Purple Shawl",
       "price": "₹1,499.00",

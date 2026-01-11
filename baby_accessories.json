@@ -3,257 +3,134 @@
   "description": "Charming crochet wearables and decor paired with practical everyday accessories for the nursery. Explore our delightful collection of handmade baby hats, booties, blankets, stuffed toys, and more, crafted with care for your little ones.",
   "products": [
     {
-      "id": "red_frock",
-      "title": "Red Frock",
-      "price": "₹899.00",
-      "description": "Pulp Baby Girl Crochet Winter Frock with Cap & Warm Shoes | Hand Knitted | Woollen Winter Wear | Crochet Wear | 12 Months Old | Red & White Colour | Christmas Wear | For 1 year old",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G2JGCLPR/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO",
-      "link": "template_buy.html?category=baby_accessories&prod=red_frock",
+      "id": "Triangle_Poncho",
+      "title": "Colourfull Poncho",
+      "price": "₹1,199.00",
+      "description": "A unique comfy poncho crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "link": "template_buy.html?category=baby_accessories&prod=Triangle_Poncho",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4e0316a9684686ec5df93718deb241ba8f2ee14d/Images/Category/Baby_Products/Red_Frock/Gemini_Generated_Image_uczzq5uczzq5uczz.jpg",
-          "classes": ["contain-h"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/621ae95b3b2dbd15a5f2195a67e5433fe64908cf/Images/Category/Baby_Products/Red_Frock/Gemini_Generated_Image_2wue2b2wue2b2wue.jpg",
-          "classes": ["contain-v"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4e0316a9684686ec5df93718deb241ba8f2ee14d/Images/Category/Baby_Accessories.png",
-          "classes": ["contain-v"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4e0316a9684686ec5df93718deb241ba8f2ee14d/Images/Category/Baby_Products/Red_Frock/Gemini_Generated_Image_acp9dcacp9dcacp9.jpg",
-          "classes": ["contain-v"]
-        }
-      ],
-      "outOfStock": true
-    },
-    {
-      "id": "yellow_sweater",
-      "title": "Yellow Sweater",
-      "price": "₹799.00",
-      "description": "A warm and cozy hand-crocheted yellow sweater made with ultra-soft wool, perfect for chilly evenings. Lightweight, breathable, and designed for all-day comfort.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G2JN9HMT/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO",
-      "link": "template_buy.html?category=baby_accessories&prod=yellow_sweater",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Sweater/13.jpg",
-          "classes": ["contain-h"],
-          "styles": "transform: scale(1.4);"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Sweater/14.jpg",
-          "classes": ["contain-v"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/b46c4f3bc9e8a465a793e3cdb5152a4fb2ed7469/Images/Category/Baby_Products/Yellow_Sweater/11.png",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/1.jpg",
           "classes": ["contain-v"],
-          "styles": "transform: scale(1.4);"
+          "styles": "transform: scale(1.2);"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/b46c4f3bc9e8a465a793e3cdb5152a4fb2ed7469/Images/Category/Baby_Products/Yellow_Sweater/12.png",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/2.jpg",
           "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/3.jpg",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "transform: scale(1.3);"
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "Pink_White_Poncho",
+      "title": "Pink & White Poncho",
+      "price": "₹1,199.00",
+      "description": "A comfy poncho crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "link": "template_buy.html?category=baby_accessories&prod=Pink_White_Poncho",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/1.jpg",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "transform: scale(1.2);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/2.jpg",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "transform: scale(1.1);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/3.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/4.png",
+          "classes": [
+            "contain-v"
+          ]
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "Red_White_Frock",
+      "title": "Red & White Frock",
+      "price": "₹1,199.00",
+      "description": "A comfy red & white frock crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "link": "template_buy.html?category=baby_accessories&prod=Red_White_Frock",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/1.jpg",
+          "classes": [
+            "contain-v"
+          ],
           "styles": "transform: scale(1.4);"
-        }
-      ]
-    },
-    {
-      "id": "swaddling_swinging",
-      "title": "Swaddling & Swinging Wrap",
-      "price": "₹999.00",
-      "description": "A soft, secure crochet swaddling and swinging wrap designed to keep your baby snug and relaxed. Ideal for soothing newborns and providing gentle warmth and comfort.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBNC4ZL4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_47651424-d21d-46ec-b4d4-5216d04b5021",
-      "link": "template_buy.html?category=baby_accessories&prod=swaddling_swinging",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Swaddling_Swinging/13.jpg",
-          "classes": ["contain-v"]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Swaddling_Swinging/12.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/2.jpg",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "transform: scale(1.2);"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Swaddling_Swinging/11.jpg",
-          "classes": ["contain-v"]
-        }
-      ],
-      "outOfStock": false
-    },
-    {
-      "id": "blue_yellow_poncho",
-      "title": "Blue & Yellow Poncho",
-      "price": "₹659.00",
-      "description": "A charming blue and yellow crochet ponchu that adds warmth without restricting movement. Ideal for layering and keeping babies cozy during outings.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G2JLHN44/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO",
-      "link": "template_buy.html?category=baby_accessories&prod=blue_yellow_poncho",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/12.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/3.jpg",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "transform: scale(1.4);"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/11.jpg",
-          "classes": ["contain-v"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/14.jpg",
-          "classes": ["contain-v"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/13.jpg",
-          "classes": ["contain-v"]
-        }
-      ],
-      "outOfStock": true
-    },
-    {
-      "id": "pink_poncho",
-      "title": "Pink Poncho",
-      "price": "₹599.00",
-      "description": "A sweet and stylish pink crochet poncho, soft on delicate skin and perfect for light winter wear. Handcrafted with love for everyday comfort.",
-      "amazonLink": "https://www.amazon.in/Crochet-Sweater-Hairband-Knitted-Woollen/dp/B0FZ9JFZSG",
-      "link": "template_buy.html?category=baby_accessories&prod=pink_poncho",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/14.jpg",
-          "classes": ["contain-h"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/15.jpg",
-          "classes": ["contain-h"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/16.jpg",
-          "classes": ["contain-v"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/11.jpg",
-          "classes": ["contain-v"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/12.jpg",
-          "classes": ["contain-v"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/13.jpg",
-          "classes": ["contain-h"]
-        }
-      ],
-      "outOfStock": true
-    },
-    {
-      "id": "white_blue_frock",
-      "title": "White Blue Frock",
-      "price": "₹599.00",
-      "description": "A beautifully hand-crocheted White & Blue frock crafted with premium soft yarn. Gentle, breathable, and perfect for photoshoots, casual wear, or gifting.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G2RDC4K8/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
-      "link": "template_buy.html?category=baby_accessories&prod=white_blue_frock",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Frock/12.jpg",
-          "classes": ["contain-v"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Frock/13.jpg",
-          "classes": ["contain-v"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/b46c4f3bc9e8a465a793e3cdb5152a4fb2ed7469/Images/Category/Baby_Products/White_Blue_Frock/11.png",
-          "classes": ["contain-v"]
-        }
-      ]
-    },
-    {
-      "id": "white_blue_full_sweater",
-      "title": "White & Blue Full Sweater",
-      "price": "₹1,499",
-      "description": "A warm and soft white-blue hand-knitted sweater designed for full winter coverage. Gentle on skin and ideal for keeping babies snug during cold outings.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G4FVFTPS/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_e13d4031-6b21-4d38-b2f2-c94f8d89cc6e",
-      "link": "template_buy.html?category=baby_accessories&prod=white_blue_full_sweater",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Full_Sweater/11.jpg",
-          "classes": ["contain-h"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Full_Sweater/12.jpg",
-          "classes": ["contain-h"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Full_Sweater/13.jpg",
-          "classes": ["contain-h"]
-        }
-      ]
-    },
-    {
-      "id": "romper",
-      "title": "Yellow Romper / Jumpsuit",
-      "price": "₹1,399.00",
-      "description": "A bright and comfy yellow romper crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G4N8SRYY/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
-      "link": "template_buy.html?category=baby_accessories&prod=romper",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Romper/11.jpg",
-          "classes": ["contain-h"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Romper/12.jpg",
-          "classes": ["contain-h"]
-        }
-      ],
-      "outOfStock": false
-    },
-    {
-      "id": "maroon_purple_frock",
-      "title": "Maroon & Purple Frock",
-      "price": "₹1,199",
-      "description": "A beautifully crafted maroon and purple frock with soft yarn detailing. Perfect for festive occasions, photoshoots, or gifting.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G4FND5DW/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_3dad4fd9-ef2b-49db-b3dc-9bbc20f328b6",
-      "link": "template_buy.html?category=baby_accessories&prod=maroon_purple_frock",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Maroon_Purple_Frock/11.jpg",
-          "classes": []
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Maroon_Purple_Frock/12.jpg",
-          "classes": [],
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/4.png",
+          "classes": [
+            "contain-v"
+          ],
           "styles": "transform: scale(1.2);"
         }
-      ]
+      ],
+      "outOfStock": true
     },
     {
-      "id": "half_sweater",
-      "title": "White Half Sweater",
-      "price": "₹599.00",
-      "description": "A stylish white half sweater perfect for layering. Lightweight yet warm, making it ideal for mild winters or breezy evenings.",
-      "amazonLink": "https://www.amazon.in/Crochet-Sweater-Knitted-Woollen-Christmas/dp/B0G4NCMDLY",
-      "link": "template_buy.html?category=baby_accessories&prod=half_sweater",
+      "id": "Black_White",
+      "title": "Black & White Frock",
+      "price": "₹1,199.00",
+      "description": "A comfy black & white frock crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "link": "template_buy.html?category=baby_accessories&prod=Black_White",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/11.jpg",
-          "classes": ["contain-h"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/1.jpg",
+          "classes": [
+            "contain-v"
+          ]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/12.jpg",
-          "classes": ["contain-h"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/2.jpg",
+          "classes": [
+            "contain-v"
+          ]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/13.jpg",
-          "classes": ["contain-h"]
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/14.jpg",
-          "classes": ["contain-v"],
-          "styles": "transform: scale(1.4);"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/16.jpg",
-          "classes": ["contain-v"],
-          "styles": "transform: scale(1.4);"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/3.jpg",
+          "classes": [
+            "contain-v"
+          ]
         }
       ],
       "outOfStock": false
@@ -289,27 +166,328 @@
       "outOfStock": false
     },
     {
-      "id": "Black_White",
-      "title": "Black & White Frock",
-      "price": "₹1,199.00",
-      "description": "A comfy black & white frock crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
-      "link": "template_buy.html?category=baby_accessories&prod=Black_White",
+      "id": "half_sweater",
+      "title": "White Half Sweater",
+      "price": "₹599.00",
+      "description": "A stylish white half sweater perfect for layering. Lightweight yet warm, making it ideal for mild winters or breezy evenings.",
+      "amazonLink": "https://www.amazon.in/Crochet-Sweater-Knitted-Woollen-Christmas/dp/B0G4NCMDLY",
+      "link": "template_buy.html?category=baby_accessories&prod=half_sweater",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/1.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/11.jpg",
+          "classes": [
+            "contain-h"
+          ]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/2.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/12.jpg",
+          "classes": [
+            "contain-h"
+          ]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/3.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/13.jpg",
+          "classes": [
+            "contain-h"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/14.jpg",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "transform: scale(1.4);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/16.jpg",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "transform: scale(1.4);"
         }
       ],
-      "outOfStock":false
+      "outOfStock": false
+    },
+    {
+      "id": "maroon_purple_frock",
+      "title": "Maroon & Purple Frock",
+      "price": "₹1,199",
+      "description": "A beautifully crafted maroon and purple frock with soft yarn detailing. Perfect for festive occasions, photoshoots, or gifting.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G4FND5DW/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_3dad4fd9-ef2b-49db-b3dc-9bbc20f328b6",
+      "link": "template_buy.html?category=baby_accessories&prod=maroon_purple_frock",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Maroon_Purple_Frock/11.jpg",
+          "classes": []
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Maroon_Purple_Frock/12.jpg",
+          "classes": [],
+          "styles": "transform: scale(1.2);"
+        }
+      ]
+    },
+    {
+      "id": "romper",
+      "title": "Yellow Romper / Jumpsuit",
+      "price": "₹1,399.00",
+      "description": "A bright and comfy yellow romper crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G4N8SRYY/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
+      "link": "template_buy.html?category=baby_accessories&prod=romper",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Romper/11.jpg",
+          "classes": [
+            "contain-h"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Romper/12.jpg",
+          "classes": [
+            "contain-h"
+          ]
+        }
+      ],
+      "outOfStock": false
+    },
+    {
+      "id": "white_blue_full_sweater",
+      "title": "White & Blue Full Sweater",
+      "price": "₹1,499",
+      "description": "A warm and soft white-blue hand-knitted sweater designed for full winter coverage. Gentle on skin and ideal for keeping babies snug during cold outings.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G4FVFTPS/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_e13d4031-6b21-4d38-b2f2-c94f8d89cc6e",
+      "link": "template_buy.html?category=baby_accessories&prod=white_blue_full_sweater",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Full_Sweater/11.jpg",
+          "classes": [
+            "contain-h"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Full_Sweater/12.jpg",
+          "classes": [
+            "contain-h"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Full_Sweater/13.jpg",
+          "classes": [
+            "contain-h"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white_blue_frock",
+      "title": "White Blue Frock",
+      "price": "₹599.00",
+      "description": "A beautifully hand-crocheted White & Blue frock crafted with premium soft yarn. Gentle, breathable, and perfect for photoshoots, casual wear, or gifting.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2RDC4K8/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
+      "link": "template_buy.html?category=baby_accessories&prod=white_blue_frock",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Frock/12.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Frock/13.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/b46c4f3bc9e8a465a793e3cdb5152a4fb2ed7469/Images/Category/Baby_Products/White_Blue_Frock/11.png",
+          "classes": [
+            "contain-v"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pink_poncho",
+      "title": "Pink Poncho",
+      "price": "₹599.00",
+      "description": "A sweet and stylish pink crochet poncho, soft on delicate skin and perfect for light winter wear. Handcrafted with love for everyday comfort.",
+      "amazonLink": "https://www.amazon.in/Crochet-Sweater-Hairband-Knitted-Woollen/dp/B0FZ9JFZSG",
+      "link": "template_buy.html?category=baby_accessories&prod=pink_poncho",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/14.jpg",
+          "classes": [
+            "contain-h"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/15.jpg",
+          "classes": [
+            "contain-h"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/16.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/11.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/12.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/13.jpg",
+          "classes": [
+            "contain-h"
+          ]
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "blue_yellow_poncho",
+      "title": "Blue & Yellow Poncho",
+      "price": "₹659.00",
+      "description": "A charming blue and yellow crochet ponchu that adds warmth without restricting movement. Ideal for layering and keeping babies cozy during outings.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2JLHN44/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO",
+      "link": "template_buy.html?category=baby_accessories&prod=blue_yellow_poncho",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/12.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/11.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/14.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/13.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "swaddling_swinging",
+      "title": "Swaddling & Swinging Wrap",
+      "price": "₹999.00",
+      "description": "A soft, secure crochet swaddling and swinging wrap designed to keep your baby snug and relaxed. Ideal for soothing newborns and providing gentle warmth and comfort.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBNC4ZL4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_47651424-d21d-46ec-b4d4-5216d04b5021",
+      "link": "template_buy.html?category=baby_accessories&prod=swaddling_swinging",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Swaddling_Swinging/13.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Swaddling_Swinging/12.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Swaddling_Swinging/11.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        }
+      ],
+      "outOfStock": false
+    },
+    {
+      "id": "yellow_sweater",
+      "title": "Yellow Sweater",
+      "price": "₹799.00",
+      "description": "A warm and cozy hand-crocheted yellow sweater made with ultra-soft wool, perfect for chilly evenings. Lightweight, breathable, and designed for all-day comfort.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2JN9HMT/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO",
+      "link": "template_buy.html?category=baby_accessories&prod=yellow_sweater",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Sweater/13.jpg",
+          "classes": [
+            "contain-h"
+          ],
+          "styles": "transform: scale(1.4);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Sweater/14.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/b46c4f3bc9e8a465a793e3cdb5152a4fb2ed7469/Images/Category/Baby_Products/Yellow_Sweater/11.png",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "transform: scale(1.4);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/b46c4f3bc9e8a465a793e3cdb5152a4fb2ed7469/Images/Category/Baby_Products/Yellow_Sweater/12.png",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "transform: scale(1.4);"
+        }
+      ]
+    },
+    {
+      "id": "red_frock",
+      "title": "Red Frock",
+      "price": "₹899.00",
+      "description": "Pulp Baby Girl Crochet Winter Frock with Cap & Warm Shoes | Hand Knitted | Woollen Winter Wear | Crochet Wear | 12 Months Old | Red & White Colour | Christmas Wear | For 1 year old",
+      "amazonLink": "https://www.amazon.in/gp/product/B0G2JGCLPR/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO",
+      "link": "template_buy.html?category=baby_accessories&prod=red_frock",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4e0316a9684686ec5df93718deb241ba8f2ee14d/Images/Category/Baby_Products/Red_Frock/Gemini_Generated_Image_uczzq5uczzq5uczz.jpg",
+          "classes": [
+            "contain-h"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/621ae95b3b2dbd15a5f2195a67e5433fe64908cf/Images/Category/Baby_Products/Red_Frock/Gemini_Generated_Image_2wue2b2wue2b2wue.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4e0316a9684686ec5df93718deb241ba8f2ee14d/Images/Category/Baby_Accessories.png",
+          "classes": [
+            "contain-v"
+          ]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4e0316a9684686ec5df93718deb241ba8f2ee14d/Images/Category/Baby_Products/Red_Frock/Gemini_Generated_Image_acp9dcacp9dcacp9.jpg",
+          "classes": [
+            "contain-v"
+          ]
+        }
+      ],
+      "outOfStock": true
     }
   ]
 }
