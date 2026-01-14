@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "id": "Green_White_Full",
+      "title": "Green-White Full Sweater",
+      "price": "₹1,199.00",
+      "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "link": "template_buy.html?category=baby_accessories&prod=Green_White_Full",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Green_White_Full/4_isto_3.jpg",
+          "classes": ["contain-v"],
+          "styles": "object-position: 50% 50%;object-fit: contain;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/2.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/3.png",
+          "classes": ["contain-v"]
+        }
+      ],
+      "outOfStock": true
+    },
+    {
       "id": "White_Muffler",
       "title": "White Muffler",
       "price": "₹1,099.00",
@@ -10,7 +34,7 @@
       "outOfStock": true,
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_White/1.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Women_Accessories/Muffler_White/4_isto_3.jpg",
           "classes": [],
           "styles": "object-position: 50% 50%;object-fit: contain;"
         },
@@ -30,7 +54,7 @@
       "outOfStock": true,
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_Multi/1.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Women_Accessories/Muffler_Multi/4_isto_3.jpg",
           "classes": [],
           "styles": "object-position: 50% 80%;object-fit: contain;"
         },

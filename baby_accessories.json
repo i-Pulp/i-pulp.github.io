@@ -3,6 +3,34 @@
   "description": "Charming crochet wearables and decor paired with practical everyday accessories for the nursery. Explore our delightful collection of handmade baby hats, booties, blankets, stuffed toys, and more, crafted with care for your little ones.",
   "products": [
     {
+      "id": "Green_White_Full",
+      "title": "Green-White Full Sweater",
+      "price": "₹1,199.00",
+      "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "link": "template_buy.html?category=baby_accessories&prod=Green_White_Full",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.2);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/3.png",
+          "classes": [
+            "contain-v"
+          ],
+          "styles": "transform: scale(1.3);"
+        }
+      ],
+      "outOfStock": true
+    },
+    {
       "id": "Triangle_Poncho",
       "title": "Colourfull Poncho",
       "price": "₹1,199.00",
