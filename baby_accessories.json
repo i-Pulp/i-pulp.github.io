@@ -5,9 +5,9 @@
     {
       "id": "Green_White_Full",
       "title": "Green-White Full Sweater",
-      "price": "₹1,199.00",
+      "price": "₹1,499.00",
       "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
       "link": "template_buy.html?category=baby_accessories&prod=Green_White_Full",
       "images": [
         {
@@ -28,14 +28,14 @@
           "styles": "transform: scale(1.3);"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
       "id": "Triangle_Poncho",
       "title": "Colourfull Poncho",
-      "price": "₹1,199.00",
+      "price": "₹999.00",
       "description": "A unique comfy poncho crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "amazonLink": "https://amzn.in/d/88pIwvZ",
       "link": "template_buy.html?category=baby_accessories&prod=Triangle_Poncho",
       "images": [
         {
@@ -56,15 +56,15 @@
           "styles": "transform: scale(1.3);"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
-      "id": "Pink_White_Poncho",
-      "title": "Pink & White Poncho",
-      "price": "₹1,199.00",
+      "id": "Pink_Yellow_Poncho",
+      "title": "Pink & Yellow Poncho",
+      "price": "₹999.00",
       "description": "A comfy poncho crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
-      "link": "template_buy.html?category=baby_accessories&prod=Pink_White_Poncho",
+      "amazonLink": "https://amzn.in/d/08Uvmky",
+      "link": "template_buy.html?category=baby_accessories&prod=Pink_Yellow_Poncho",
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/1.jpg",
@@ -93,14 +93,14 @@
           ]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
       "id": "Red_White_Frock",
       "title": "Red & White Frock",
-      "price": "₹1,199.00",
+      "price": "₹1,499.00",
       "description": "A comfy red & white frock crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "amazonLink": "https://amzn.in/d/0q9VDVA",
       "link": "template_buy.html?category=baby_accessories&prod=Red_White_Frock",
       "images": [
         {
@@ -132,7 +132,7 @@
           "styles": "transform: scale(1.2);"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
       "id": "Black_White",

@@ -3,9 +3,9 @@
     {
       "id": "Green_White_Full",
       "title": "Green-White Full Sweater",
-      "price": "₹1,199.00",
+      "price": "₹1,499.00",
       "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "amazonLink": "https://amzn.in/d/7mDVzTH",
       "link": "template_buy.html?category=baby_accessories&prod=Green_White_Full",
       "images": [
         {
@@ -22,16 +22,16 @@
           "classes": ["contain-v"]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
       "id": "White_Muffler",
       "title": "White Muffler",
-      "price": "₹1,099.00",
+      "price": "₹899.00",
       "description": "A beautifully handcrafted crochet muffler. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G2RT9QS4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_de1819b7-9c5c-4492-905b-b03cf811639d",
+      "amazonLink": "https://amzn.in/d/eGpTDIE",
       "link": "template_buy.html?category=women_accessories&prod=White_Muffler",
-      "outOfStock": true,
+      "outOfStock": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Women_Accessories/Muffler_White/4_isto_3.jpg",
@@ -47,11 +47,11 @@
     {
       "id": "Muffler_Multi",
       "title": "MultiColour Muffler",
-      "price": "₹1,099.00",
+      "price": "₹999.00",
       "description": "A beautifully handcrafted crochet muffler with blending colours. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G2RT9QS4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_de1819b7-9c5c-4492-905b-b03cf811639d",
+      "amazonLink": "https://amzn.in/d/fCHttQr",
       "link": "template_buy.html?category=women_accessories&prod=Muffler_Multi",
-      "outOfStock": true,
+      "outOfStock": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Women_Accessories/Muffler_Multi/4_isto_3.jpg",
@@ -67,9 +67,9 @@
     {
       "id": "Triangle_Poncho",
       "title": "Colourfull Poncho",
-      "price": "₹1,199.00",
+      "price": "₹999.00",
       "description": "A unique comfy poncho crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "amazonLink": "https://amzn.in/d/fDJb0dt",
       "link": "template_buy.html?category=baby_accessories&prod=Triangle_Poncho",
       "images": [
         {
@@ -88,15 +88,15 @@
           ]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
-      "id": "Pink_White_Poncho",
-      "title": "Pink & White Poncho",
-      "price": "₹1,199.00",
+      "id": "Pink_Yellow_Poncho",
+      "title": "Pink & Yellow Poncho",
+      "price": "₹999.00",
       "description": "A comfy poncho crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
-      "link": "template_buy.html?category=baby_accessories&prod=Pink_White_Poncho",
+      "amazonLink": "https://amzn.in/d/1pFUmHx",
+      "link": "template_buy.html?category=baby_accessories&prod=Pink_Yellow_Poncho",
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/1.jpg",
@@ -124,14 +124,14 @@
           ]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
       "id": "Red_White_Frock",
       "title": "Red & White Frock",
-      "price": "₹1,199.00",
+      "price": "₹1,499.00",
       "description": "A comfy red & white frock crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
+      "amazonLink": "https://amzn.in/d/9NH7AMK",
       "link": "template_buy.html?category=baby_accessories&prod=Red_White_Frock",
       "images": [
         {
@@ -159,7 +159,7 @@
           ]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false
     },
     {
       "id": "Gadda_white_multicolour",

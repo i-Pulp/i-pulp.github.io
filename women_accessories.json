@@ -5,11 +5,11 @@
     {
       "id": "White_Muffler",
       "title": "White Muffler",
-      "price": "₹1,099.00",
+      "price": "₹899.00",
       "description": "A beautifully handcrafted crochet muffler. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G2RT9QS4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_de1819b7-9c5c-4492-905b-b03cf811639d",
+      "amazonLink": "https://amzn.in/d/eGpTDIE",
       "link": "template_buy.html?category=women_accessories&prod=White_Muffler",
-      "outOfStock": true,
+      "outOfStock": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_White/1.jpg",
@@ -27,11 +27,11 @@
     {
       "id": "Muffler_Multi",
       "title": "MultiColour Muffler",
-      "price": "₹1,099.00",
+      "price": "₹999.00",
       "description": "A beautifully handcrafted crochet muffler with blending colours. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G2RT9QS4/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_de1819b7-9c5c-4492-905b-b03cf811639d",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GJQM2GGZ/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_267ea7e5-0339-4ec3-9bc6-bb29af7e4b4e",
       "link": "template_buy.html?category=women_accessories&prod=Muffler_Multi",
-      "outOfStock": true,
+      "outOfStock": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_Multi/1.jpg",
