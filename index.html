@@ -484,8 +484,7 @@ function initSliderInteractions() {
   });
 }
 
-/* Load Items with Performance (DOM Fragment optimization)
- */
+/* Load Items with Performance (DOM Fragment optimization) */
 async function loadNewItems() {
   const slides = document.querySelector('.new-items-slider');
   try {
@@ -494,15 +493,22 @@ async function loadNewItems() {
     
     const data = await response.json();
     
-    const fragment = data.products.map(prod => `
-      <a href="template_buy.html?category=new_items&prod=${prod.id}" class="new-item-card" aria-label="${prod.title}">
-        <div class="new-item-label">NEW!</div>
-        <div class="new-item-thumb">
-          <img src="${prod.images[0].src}" alt="${prod.title}" loading="lazy">
-        </div>
-        <h3 class="new-item-title">${prod.title}</h3>
-      </a>
-    `).join('');
+    const fragment = data.products.map(prod => {
+      // Extract the first image object
+      const firstImg = prod.images[0];
+      // Check if 'styles' exists, if so format it for the style attribute
+      const inlineStyle = firstImg.styles ? `style="${firstImg.styles}"` : '';
+
+      return `
+        <a href="template_buy.html?category=new_items&prod=${prod.id}" class="new-item-card" aria-label="${prod.title}">
+          <div class="new-item-label">NEW!</div>
+          <div class="new-item-thumb">
+            <img src="${firstImg.src}" alt="${prod.title}" loading="lazy" ${inlineStyle}>
+          </div>
+          <h3 class="new-item-title">${prod.title}</h3>
+        </a>
+      `;
+    }).join('');
 
     slides.innerHTML = fragment;
     initSliderInteractions();

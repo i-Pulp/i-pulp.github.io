@@ -10,7 +10,8 @@
       "outOfStock": true,
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/1.jpg"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/1.jpg",
+          "styles": "object-position: 50% 85%;"
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/2.jpg"
@@ -33,7 +34,8 @@
       "outOfStock": true,
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/1.jpg"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/1.jpg",
+          "styles": "object-position: 50% 90%;"
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/2.jpg"
@@ -50,7 +52,8 @@
       "outOfStock": true,
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/2.jpg"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/2.jpg",
+          "styles": "object-position: 50% 90%;"
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/1.jpg"
