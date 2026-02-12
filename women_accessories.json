@@ -2,6 +2,38 @@
   "title": "Crochet Women's Wear",
   "description": "Handcrafted style meets effortless elegance. Our Crochet Women's Wear collection offers unique textures and beautiful, intricate designs, transforming classic techniques into modern, wearable art. Discover your next statement piece, from breezy to cozy, chic layers.",
   "products": [
+        {
+      "id": "Colourful_Ponchu",
+      "title": "Colourful Ponchu",
+      "price": "₹999.00",
+      "description": "A beautifully handcrafted crochet ponchu. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
+      "amazonLink": "https://amzn.in/d/eGpTDIE",
+      "link": "template_buy.html?category=women_accessories&prod=Colourful_Ponchu",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.2);"
+
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.25);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/3.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.0);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/4.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.2);"
+        }
+      ]
+    },
     {
       "id": "White_Muffler",
       "title": "White Muffler",

@@ -3,9 +3,72 @@
   "description": "Handcrafted crochet handbag. Blends traditional art with modern style. Made with soft, durable yarn for a unique texture. Perfect for a Boho-chic look or casual use. Lightweight and robust for essentials.",
   "products": [
     {
+      "id": "pinkWhite_bag",
+      "title": "Pink White Bag",
+      "price": "₹899.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=pinkWhite_bag",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/1.jpg",
+          "classes": ["contain-h"],
+          "styles": "transform: scale(1.2);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/2.jpg",
+          "classes": ["contain-v"],
+          "styles":  ["rotate: -90deg; transform: scale(1.35);"]
+        }
+      ]
+    },
+    {
+      "id": "greyWhite_Bag",
+      "title": "Grey White Bag",
+      "price": "₹899.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=yellow_bag",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/2.jpg",
+          "classes": ["contain-h"],
+          "styles": "transform: scale(1.20);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.30);"
+        }
+      ]
+    },
+    {
+      "id": "yellow_bag",
+      "title": "Yellow Bag",
+      "price": "₹899.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=yellow_bag",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/yellow_bag/2.jpg",
+          "classes": ["contain-h"],
+          "styles": "transform: scale(1.25);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/yellow_bag/1.jpg",
+          "classes": ["contain-v"],
+          "styles":  ["rotate: 180deg; transform: scale(1.20);"]
+        }
+      ]
+    },
+    {
       "id": "pink_tote_bag",
       "title": "Pink Tote Bag",
-      "price": "₹1,499.00",
+      "price": "₹1,199.00",
       "description": "A beautifully woven Pink Tote Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
       "amazonLink": "https://www.amazon.in/",
       "link": "template_buy.html?category=handbags&prod=pink_tote_bag",

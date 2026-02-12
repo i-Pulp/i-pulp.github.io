@@ -1,0 +1,27 @@
+{
+  "title": "Made for Play, Build to Last.",
+  "description": "Discover a world of hand-stitched wonders and carved creations. Our toys aren't just objects - they're companions for childhood adventures, crafted with love and a touch of magic.",
+  "products": [
+    {
+      "id": "bunny",
+      "title": "Bunny",
+      "price": "₹699.00",
+      "description": "Your Bunny friend to accompany you on your journey.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=bunny",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Toys/bunny/1.jpg",
+          "classes": ["contain-h"],
+          "styles": "transform: scale(1.4);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Toys/bunny/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.5);"
+        }
+      ]
+    }
+  ]
+}

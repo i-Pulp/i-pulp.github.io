@@ -1,6 +1,140 @@
 {
   "products": [
     {
+      "id": "Colourful_Ponchu",
+      "title": "Colourful Ponchu",
+      "price": "₹999.00",
+      "description": "A beautifully handcrafted crochet ponchu. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
+      "amazonLink": "https://amzn.in/d/eGpTDIE",
+      "link": "template_buy.html?category=women_accessories&prod=Colourful_Ponchu",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/3.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pinkWhite_bag",
+      "title": "Pink White Bag",
+      "price": "₹899.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=pinkWhite_bag",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "greyWhite_Bag",
+      "title": "Grey White Bag",
+      "price": "₹899.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=yellow_bag",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "yellow_bag",
+      "title": "Yellow Bag",
+      "price": "₹899.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=yellow_bag",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/yellow_bag/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/yellow_bag/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "bunny",
+      "title": "Bunny",
+      "price": "₹699.00",
+      "description": "Your Bunny friend to accompany you on your journey.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=bunny",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Toys/bunny/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Toys/bunny/2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "blue_grey",
+      "title": "Curtain Tie",
+      "price": "₹499.00",
+      "description": "Curtain tie for your stylish curtain.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=blue_grey",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Blue_Grey/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Blue_Grey/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Blue_Grey/3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "flower",
+      "title": "Flower Curtain Tie",
+      "price": "₹499.00",
+      "description": "Curtain tie for your stylish curtain.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=flower",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Flower/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Flower/4.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Flower/3.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Flower/2.jpg"
+        }
+      ]
+    },
+    {
       "id": "Green_White_Full",
       "title": "Green-White Full Sweater",
       "price": "₹1,499.00",
@@ -10,16 +144,13 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Green_White_Full/4_isto_3.jpg",
-          "classes": ["contain-v"],
           "styles": "object-position: 50% 50%;object-fit: contain;"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/2.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/2.jpg"  
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/3.png",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/3.png" 
         }
       ],
       "outOfStock": false
@@ -35,12 +166,10 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Women_Accessories/Muffler_White/4_isto_3.jpg",
-          "classes": [],
           "styles": "object-position: 50% 50%;object-fit: contain;"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_White/2.jpg",
-          "classes": []
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_White/2.jpg"
         }
       ]
     },
@@ -55,12 +184,10 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Women_Accessories/Muffler_Multi/4_isto_3.jpg",
-          "classes": [],
           "styles": "object-position: 50% 80%;object-fit: contain;"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_Multi/2.jpg",
-          "classes": []
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_Multi/2.jpg"
         }
       ]
     },
@@ -74,18 +201,13 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/1.jpg",
-          "classes": ["contain-v"],
           "styles": "object-position: 50% 30%;"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/2.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/2.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/3.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/3.jpg"
         }
       ],
       "outOfStock": false
@@ -100,28 +222,16 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/1.jpg",
-          "classes": [
-            "contain-v"
-          ],
           "styles": "object-position: 50% 80%;"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/2.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/2.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/3.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/3.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/4.png",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/4.png"
         }
       ],
       "outOfStock": false
@@ -135,28 +245,16 @@
       "link": "template_buy.html?category=baby_accessories&prod=Red_White_Frock",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/1.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/1.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/2.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/2.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/3.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/3.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/4.png",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/4.png"
         }
       ],
       "outOfStock": false
@@ -171,20 +269,16 @@
       "outOfStock": false,
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/1.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/1.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/2.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/2.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/3.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/3.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/4.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/4.jpg"
         }
       ]
     },
@@ -199,24 +293,19 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4c2d7ad5ec91d71e1d2404086188a57dd206a822/Images/Category/Bal_Gopal/Gadda_white_pink/0.png",
-          "classes": ["contain-v"],
           "styles": "object-position: 50% 80%;"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/1.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/1.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/2.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/2.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/3.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/3.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/4.jpg",
-          "classes": ["contain-v"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/4.jpg"
         }
       ]
     },
@@ -229,23 +318,16 @@
       "link": "template_buy.html?category=baby_accessories&prod=Pink_White",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/1.jpg",
-          "classes": []
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/1.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/2.jpg",
-          "classes": [],
-          "styles": "transform: scale(1.2);"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/2.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/3.jpg",
-          "classes": [],
-          "styles": "transform: scale(1.2);"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/3.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/4.png",
-          "classes": [],
-          "styles": "transform: scale(1.2);"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/4.png"
         }
       ]
     },
@@ -258,16 +340,13 @@
       "link": "template_buy.html?category=baby_accessories&prod=Black_White",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/1.jpg",
-          "classes": ["contain-h"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/1.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/2.jpg",
-          "classes": ["contain-h"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/2.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/3.jpg",
-          "classes": ["contain-h"]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/3.jpg"
         }
       ],
       "outOfStock":false
