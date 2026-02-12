@@ -8,7 +8,7 @@
       "price": "₹499.00",
       "description": "Curtain tie for your stylish curtain.",
       "amazonLink": "https://www.amazon.in/",
-      "link": "template_buy.html?category=handbags&prod=blue_grey",
+      "link": "template_buy.html?category=home_accessories&prod=blue_grey",
       "outOfStock": true,
       "images": [
         {
@@ -32,7 +32,7 @@
       "price": "₹499.00",
       "description": "Curtain tie for your stylish curtain.",
       "amazonLink": "https://www.amazon.in/",
-      "link": "template_buy.html?category=handbags&prod=flower",
+      "link": "template_buy.html?category=home_accessories&prod=flower",
       "outOfStock": true,
       "images": [
         {
