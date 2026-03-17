@@ -1,26 +1,165 @@
 {
   "products": [
     {
-      "id": "Colourful_Ponchu",
-      "title": "Colourful Ponchu",
-      "price": "₹999.00",
-      "description": "A beautifully handcrafted crochet ponchu. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
-      "amazonLink": "https://amzn.in/d/eGpTDIE",
-      "link": "template_buy.html?category=women_accessories&prod=Colourful_Ponchu",
+      "id": "Black_Greenstrip_Bag",
+      "title": "Green Bag with Black Strips",
+      "price": "₹699.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=Black_Greenstrip_Bag",
       "outOfStock": true,
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/1.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Handbags/Black_Greenstrip_Bag/1.jpg",
+          "styles": "object-position: 50% 80%;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Handbags/Black_Greenstrip_Bag/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Handbags/Black_Greenstrip_Bag/3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Cream_Blackstrip_Shawl",
+      "title": "Cream Shawl",
+      "price": "₹1,299.00",
+      "description": "A soft and cozy cream-colored crochet shawl with intricate stitch detailing. Pairs beautifully with winter outfits and offers premium warmth and comfort.",
+      "amazonLink": "https://amzn.in/",
+      "link": "template_buy.html?category=women_accessories&prod=Cream_Blackstrip_Shawl",
+      "outOfStock": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Women_Accessories/Cream_Blackstrip_Shawl/12.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Women_Accessories/Cream_Blackstrip_Shawl/11.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Blue_Poncho",
+      "title": "Blue poncho",
+      "price": "₹1,499.00",
+      "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Blue_Poncho",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Blue_Poncho/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Blue_Poncho/2.jpg"
+        }
+      ],
+      "outOfStock": true
+    },{
+      "id": "Colourful_Ponchu",
+      "title": "Bright Coloured Poncho",
+      "price": "₹1,499.00",
+      "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Colourful_Ponchu",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Colourful_Ponchu/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Colourful_Ponchu/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Colourful_Ponchu/3.jpg"
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "Blue_Dress",
+      "title": "Blue Dress",
+      "price": "₹1,499.00",
+      "description": "A comfy handcrafted dress crafted for easy movement. Lightweight, breathable, and perfect for playtime and daily wear.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Blue_Dress",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Blue_Dress/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Blue_Dress/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Blue_Dress/3.jpg"
+        }
+      ],
+      "outOfStock": true
+    },{
+      "id": "Cream_Dress",
+      "title": "Cream Dress",
+      "price": "₹1,499.00",
+      "description": "A comfy handcrafted dress crafted for easy movement. Lightweight, breathable, and perfect for playtime and daily wear.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Cream_Dress",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Cream_Dress/4.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Cream_Dress/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Cream_Dress/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Cream_Dress/3.jpg"
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "Cream_Darkstrip_Sweater",
+      "title": "Cream Coloured Stripes Sweater",
+      "price": "₹1,499.00",
+      "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Cream_Darkstrip_Sweater",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/3.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/4.jpg"
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "Colourful_Poncho",
+      "title": "Colourful Poncho",
+      "price": "₹999.00",
+      "description": "A beautifully handcrafted crochet poncho. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GS9Z27XT/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_51da4375-6e58-40f8-aa16-0aa4fed494eb",
+      "link": "template_buy.html?category=women_accessories&prod=Colourful_Poncho",
+      "outOfStock": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/1.jpg",
           "styles": "object-position: 50% 85%;"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/2.jpg"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/2.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/3.jpg"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/3.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/4.jpg"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/4.jpg"
         }
       ]
     },
@@ -91,6 +230,9 @@
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Toys/bunny/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Toys/bunny/3.jpg"
         }
       ]
     },
@@ -203,14 +345,14 @@
       "link": "template_buy.html?category=baby_accessories&prod=Triangle_Poncho",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/1.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Baby_Products/Poncho/Triangle_Poncho/1.jpg",
           "styles": "object-position: 50% 30%;"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/2.jpg"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Baby_Products/Poncho/Triangle_Poncho/2.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/3.jpg"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Baby_Products/Poncho/Triangle_Poncho/3.jpg"
         }
       ],
       "outOfStock": false
@@ -224,17 +366,17 @@
       "link": "template_buy.html?category=baby_accessories&prod=Pink_Yellow_Poncho",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/1.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/1.jpg",
           "styles": "object-position: 50% 80%;"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/2.jpg"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/2.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/3.jpg"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/3.jpg"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/4.png"
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/4.png"
         }
       ],
       "outOfStock": false
@@ -261,98 +403,6 @@
         }
       ],
       "outOfStock": false
-    },
-    {
-      "id": "Gadda_white_multicolour",
-      "title": "Bal Gopal Blanket & Bedsheet Crochet",
-      "price": "₹599.0",
-      "description": "Sizes 4 & 5.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GF2DRXR7/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_9b38f502-ae74-4cd7-a8ae-5ac225423314",
-      "link": "template_buy.html?category=bal_gopal&prod=Gadda_white_multicolour",
-      "outOfStock": false,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/1.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/3.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/f5f7c7c5fe673065cca82c1a8c89f73234fe94f6/Images/Category/Bal_Gopal/Gadda_white_multicolour/4.jpg"
-        }
-      ]
-    },
-    {
-      "id": "Gadda_white_pink",
-      "title": "Bal Gopal Blanket & Bedsheet Crochet",
-      "price": "₹599.0",
-      "description": "Sizes 6 & 7.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0G4GR6Z9R/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
-      "link": "template_buy.html?category=bal_gopal&prod=Gadda_white_pink",
-      "outOfStock": true,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4c2d7ad5ec91d71e1d2404086188a57dd206a822/Images/Category/Bal_Gopal/Gadda_white_pink/0.png",
-          "styles": "object-position: 50% 80%;"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/1.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/3.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/d6d7a0dfd73e000ca05c8a59b100bae735e2dac3/Images/Category/Bal_Gopal/Gadda_white_pink/4.jpg"
-        }
-      ]
-    },
-    {
-      "id": "Pink_White",
-      "title": "White & Pink Frock",
-      "price": "₹1,499.00",
-      "description": "A beautifully crafted white & pink frock with soft yarn detailing. Perfect for festive occasions, photoshoots, or gifting.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBLP7WJR/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
-      "link": "template_buy.html?category=baby_accessories&prod=Pink_White",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/1.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/3.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White/4.png"
-        }
-      ]
-    },
-    {
-      "id": "Black_White",
-      "title": "Black & White Frock",
-      "price": "₹1,199.00",
-      "description": "A bright and comfy yellow romper crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GBMH1LVL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_08f2b8de-4014-474d-84da-a98dce6c98df",
-      "link": "template_buy.html?category=baby_accessories&prod=Black_White",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/1.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/3.jpg"
-        }
-      ],
-      "outOfStock":false
     }
   ]
 }

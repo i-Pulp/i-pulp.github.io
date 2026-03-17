@@ -2,33 +2,52 @@
   "title": "Crochet Women's Wear",
   "description": "Handcrafted style meets effortless elegance. Our Crochet Women's Wear collection offers unique textures and beautiful, intricate designs, transforming classic techniques into modern, wearable art. Discover your next statement piece, from breezy to cozy, chic layers.",
   "products": [
-        {
-      "id": "Colourful_Ponchu",
-      "title": "Colourful Ponchu",
-      "price": "₹999.00",
-      "description": "A beautifully handcrafted crochet ponchu. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
-      "amazonLink": "https://amzn.in/d/eGpTDIE",
-      "link": "template_buy.html?category=women_accessories&prod=Colourful_Ponchu",
+      {
+      "id": "Cream_Blackstrip_Shawl",
+      "title": "Cream Shawl",
+      "price": "₹1,299.00",
+      "description": "A soft and cozy cream-colored crochet shawl with intricate stitch detailing. Pairs beautifully with winter outfits and offers premium warmth and comfort.",
+      "amazonLink": "https://amzn.in/",
+      "link": "template_buy.html?category=women_accessories&prod=Cream_Blackstrip_Shawl",
       "outOfStock": true,
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/1.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Women_Accessories/Cream_Blackstrip_Shawl/12.jpg",
           "classes": ["contain-v"],
           "styles": "transform: scale(1.2);"
-
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/2.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Women_Accessories/Cream_Blackstrip_Shawl/11.jpg",
+          "classes": ["contain-v"]
+        }
+      ]
+    },
+    {
+      "id": "Colourful_Poncho",
+      "title": "Colourfull Poncho",
+      "price": "₹1,999.00",
+      "description": "A beautifully handcrafted crochet ponchu. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GS9Z27XT/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_51da4375-6e58-40f8-aa16-0aa4fed494eb",
+      "link": "template_buy.html?category=women_accessories&prod=Colourful_Poncho",
+      "outOfStock": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.2);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/2.jpg",
           "classes": ["contain-v"],
           "styles": "transform: scale(1.25);"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/3.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/3.jpg",
           "classes": ["contain-v"],
           "styles": "transform: scale(1.0);"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4a7e9035fe3412654f324d3a74399e0a9d224346/Images/Category/Women_Accessories/Colourful_Ponchu/4.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/4.jpg",
           "classes": ["contain-v"],
           "styles": "transform: scale(1.2);"
         }

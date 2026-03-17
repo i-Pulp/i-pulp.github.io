@@ -5,11 +5,11 @@
     {
       "id": "blue_grey",
       "title": "Curtain Tie",
-      "price": "₹499.00",
+      "price": "₹299.00",
       "description": "Curtain tie for your stylish curtain.",
-      "amazonLink": "https://www.amazon.in/",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GS937667/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_f46a1956-afcf-4947-a3e3-9dea7c3bbde7",
       "link": "template_buy.html?category=home_accessories&prod=blue_grey",
-      "outOfStock": true,
+      "outOfStock": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Blue_Grey/1.jpg",
@@ -29,11 +29,11 @@
     {
       "id": "flower",
       "title": "Flower Curtain Tie",
-      "price": "₹499.00",
+      "price": "₹299.00",
       "description": "Curtain tie for your stylish curtain.",
-      "amazonLink": "https://www.amazon.in/",
+      "amazonLink": "https://www.amazon.in/gp/product/B0GS8VL7CT/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_f7feaf25-61ac-42fd-8b82-5054bc6b5bc9",
       "link": "template_buy.html?category=home_accessories&prod=flower",
-      "outOfStock": true,
+      "outOfStock": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Flower/1.jpg",

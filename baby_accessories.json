@@ -3,6 +3,135 @@
   "description": "Charming crochet wearables and decor paired with practical everyday accessories for the nursery. Explore our delightful collection of handmade baby hats, booties, blankets, stuffed toys, and more, crafted with care for your little ones.",
   "products": [
     {
+      "id": "Blue_Poncho",
+      "title": "Blue poncho",
+      "price": "₹1,499.00",
+      "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Blue_Poncho",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Blue_Poncho/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.2);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Blue_Poncho/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        }
+      ],
+      "outOfStock": true
+    },{
+      "id": "Colourful_Ponchu",
+      "title": "Bright Coloured Poncho",
+      "price": "₹1,499.00",
+      "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Colourful_Ponchu",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Colourful_Ponchu/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.2);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Colourful_Ponchu/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Colourful_Ponchu/3.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.15);"
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "Blue_Dress",
+      "title": "Blue Dress",
+      "price": "₹1,499.00",
+      "description": "A comfy handcrafted dress crafted for easy movement. Lightweight, breathable, and perfect for playtime and daily wear.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Blue_Dress",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Blue_Dress/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.2);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Blue_Dress/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Blue_Dress/3.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.15);"
+        }
+      ],
+      "outOfStock": true
+    },{
+      "id": "Cream_Dress",
+      "title": "Cream Dress",
+      "price": "₹1,499.00",
+      "description": "A comfy handcrafted dress crafted for easy movement. Lightweight, breathable, and perfect for playtime and daily wear.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Cream_Dress",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Cream_Dress/4.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Cream_Dress/1.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Cream_Dress/2.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Cream_Dress/3.jpg",
+          "classes": ["contain-v"]
+        }
+      ],
+      "outOfStock": true
+    },
+    {
+      "id": "Cream_Darkstrip_Sweater",
+      "title": "Cream Coloured Stripes Sweater",
+      "price": "₹1,499.00",
+      "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Cream_Darkstrip_Sweater",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.2);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/3.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.15);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/4.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.15);"
+        }
+      ],
+      "outOfStock": true
+    },
+    {
       "id": "Green_White_Full",
       "title": "Green-White Full Sweater",
       "price": "₹1,499.00",
@@ -22,9 +151,7 @@
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/3.png",
-          "classes": [
-            "contain-v"
-          ],
+          "classes": ["contain-v"],
           "styles": "transform: scale(1.3);"
         }
       ],
@@ -39,20 +166,18 @@
       "link": "template_buy.html?category=baby_accessories&prod=Triangle_Poncho",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/1.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Baby_Products/Poncho/Triangle_Poncho/1.jpg",
           "classes": ["contain-v"],
           "styles": "transform: scale(1.2);"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/2.jpg",
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Baby_Products/Poncho/Triangle_Poncho/2.jpg",
           "classes": ["contain-v"],
           "styles": "transform: scale(1.1);"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Baby_Products/Triangle-Poncho/3.jpg",
-          "classes": [
-            "contain-v"
-          ],
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Baby_Products/Poncho/Triangle_Poncho/3.jpg",
+          "classes": ["contain-v"],
           "styles": "transform: scale(1.3);"
         }
       ],
@@ -67,30 +192,22 @@
       "link": "template_buy.html?category=baby_accessories&prod=Pink_Yellow_Poncho",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/1.jpg",
-          "classes": [
-            "contain-v"
-          ],
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/1.jpg",
+          "classes": ["contain-v"],
           "styles": "transform: scale(1.2);"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/2.jpg",
-          "classes": [
-            "contain-v"
-          ],
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/2.jpg",
+          "classes": ["contain-v"],
           "styles": "transform: scale(1.1);"
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/3.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/3.jpg",
+          "classes": ["contain-v"]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_White_Poncho/4.png",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/4.png",
+          "classes": ["contain-v"]
         }
       ],
       "outOfStock": false
@@ -105,30 +222,22 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/1.jpg",
-          "classes": [
-            "contain-v"
-          ],
+          "classes": ["contain-v"],
           "styles": "transform: scale(1.4);"
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/2.jpg",
-          "classes": [
-            "contain-v"
-          ],
+          "classes": [ "contain-v"],
           "styles": "transform: scale(1.2);"
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/3.jpg",
-          "classes": [
-            "contain-v"
-          ],
+          "classes": ["contain-v"],
           "styles": "transform: scale(1.4);"
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/4.png",
-          "classes": [
-            "contain-v"
-          ],
+          "classes": ["contain-v"],
           "styles": "transform: scale(1.2);"
         }
       ],
@@ -144,21 +253,15 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/1.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": ["contain-v"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/2.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": ["contain-v"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/3.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": ["contain-v"]
         }
       ],
       "outOfStock": false
@@ -203,34 +306,24 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/11.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "classes": ["contain-h"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/12.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "classes": ["contain-h"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/13.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "classes": ["contain-h"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/14.jpg",
-          "classes": [
-            "contain-v"
-          ],
+          "classes": [ "contain-v"],
           "styles": "transform: scale(1.4);"
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Offwhite_Half_Sweater/16.jpg",
-          "classes": [
-            "contain-v"
-          ],
+          "classes": [ "contain-v"],
           "styles": "transform: scale(1.4);"
         }
       ],
@@ -265,15 +358,11 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Romper/11.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "classes": [ "contain-h" ]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Romper/12.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "classes": ["contain-h"]
         }
       ],
       "outOfStock": false
@@ -288,21 +377,15 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Full_Sweater/11.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "classes": ["contain-h"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Full_Sweater/12.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "classes": ["contain-h"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Full_Sweater/13.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "classes": ["contain-h"]
         }
       ]
     },
@@ -316,21 +399,15 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Frock/12.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": ["contain-v"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Frock/13.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": ["contain-v"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/b46c4f3bc9e8a465a793e3cdb5152a4fb2ed7469/Images/Category/Baby_Products/White_Blue_Frock/11.png",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": [ "contain-v"]
         }
       ]
     },
@@ -343,40 +420,28 @@
       "link": "template_buy.html?category=baby_accessories&prod=pink_poncho",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/14.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Baby_Products/Poncho/Pink_Poncho/14.jpg",
+          "classes": ["contain-h"]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/15.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_Poncho/15.jpg",
+          "classes": [ "contain-h"]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/16.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_Poncho/16.jpg",
+          "classes": ["contain-v" ]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/11.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_Poncho/11.jpg",
+          "classes": ["contain-v"]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/12.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_Poncho/12.jpg",
+          "classes": ["contain-v"]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Pink_Ponchu/13.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_Poncho/13.jpg",
+          "classes": ["contain-h"]
         }
       ],
       "outOfStock": true
@@ -390,28 +455,20 @@
       "link": "template_buy.html?category=baby_accessories&prod=blue_yellow_poncho",
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/12.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Blue_Yellow_Poncho/12.jpg",
+          "classes": ["contain-v"]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/11.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Blue_Yellow_Poncho/11.jpg",
+          "classes": ["contain-v"]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/14.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Blue_Yellow_Poncho/14.jpg",
+          "classes": ["contain-v"]
         },
         {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Blue_Yellow_Ponchu/13.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Blue_Yellow_Poncho/13.jpg",
+          "classes": ["contain-v"]
         }
       ],
       "outOfStock": true
@@ -426,21 +483,15 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Swaddling_Swinging/13.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": ["contain-v"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Swaddling_Swinging/12.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": [ "contain-v"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Swaddling_Swinging/11.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": ["contain-v"]
         }
       ],
       "outOfStock": false
@@ -455,29 +506,21 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Sweater/13.jpg",
-          "classes": [
-            "contain-h"
-          ],
+          "classes": ["contain-h"],
           "styles": "transform: scale(1.4);"
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Yellow_Sweater/14.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": [ "contain-v"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/b46c4f3bc9e8a465a793e3cdb5152a4fb2ed7469/Images/Category/Baby_Products/Yellow_Sweater/11.png",
-          "classes": [
-            "contain-v"
-          ],
+          "classes": ["contain-v"],
           "styles": "transform: scale(1.4);"
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/b46c4f3bc9e8a465a793e3cdb5152a4fb2ed7469/Images/Category/Baby_Products/Yellow_Sweater/12.png",
-          "classes": [
-            "contain-v"
-          ],
+          "classes": [ "contain-v"],
           "styles": "transform: scale(1.4);"
         }
       ]
@@ -492,27 +535,19 @@
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4e0316a9684686ec5df93718deb241ba8f2ee14d/Images/Category/Baby_Products/Red_Frock/Gemini_Generated_Image_uczzq5uczzq5uczz.jpg",
-          "classes": [
-            "contain-h"
-          ]
+          "classes": [ "contain-h"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/621ae95b3b2dbd15a5f2195a67e5433fe64908cf/Images/Category/Baby_Products/Red_Frock/Gemini_Generated_Image_2wue2b2wue2b2wue.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": [ "contain-v"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4e0316a9684686ec5df93718deb241ba8f2ee14d/Images/Category/Baby_Accessories.png",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": ["contain-v"]
         },
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/4e0316a9684686ec5df93718deb241ba8f2ee14d/Images/Category/Baby_Products/Red_Frock/Gemini_Generated_Image_acp9dcacp9dcacp9.jpg",
-          "classes": [
-            "contain-v"
-          ]
+          "classes": [ "contain-v"]
         }
       ],
       "outOfStock": true
