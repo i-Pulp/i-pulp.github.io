@@ -3,12 +3,12 @@
   "description": "Charming crochet wearables and decor paired with practical everyday accessories for the nursery. Explore our delightful collection of handmade baby hats, booties, blankets, stuffed toys, and more, crafted with care for your little ones.",
   "products": [
     {
-      "id": "Blue_Poncho",
-      "title": "Blue poncho",
-      "price": "₹1,499.00",
+      "id": "Black_Poncho",
+      "title": "Black poncho",
+      "price": "₹899.00",
       "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
       "amazonLink": "https://amzn.in/d/9a1djEM",
-      "link": "template_buy.html?category=baby_accessories&prod=Blue_Poncho",
+      "link": "template_buy.html?category=baby_accessories&prod=Black_Poncho",
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Blue_Poncho/1.jpg",
@@ -25,7 +25,7 @@
     },{
       "id": "Colourful_Ponchu",
       "title": "Bright Coloured Poncho",
-      "price": "₹1,499.00",
+      "price": "₹1,799.00",
       "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
       "amazonLink": "https://amzn.in/d/9a1djEM",
       "link": "template_buy.html?category=baby_accessories&prod=Colourful_Ponchu",
@@ -49,12 +49,12 @@
       "outOfStock": true
     },
     {
-      "id": "Blue_Dress",
-      "title": "Blue Dress",
-      "price": "₹1,499.00",
+      "id": "SkyBlue_Cheque_Dress",
+      "title": "SkyBlue Cheque Dress",
+      "price": "₹549.00",
       "description": "A comfy handcrafted dress crafted for easy movement. Lightweight, breathable, and perfect for playtime and daily wear.",
       "amazonLink": "https://amzn.in/d/9a1djEM",
-      "link": "template_buy.html?category=baby_accessories&prod=Blue_Dress",
+      "link": "template_buy.html?category=baby_accessories&prod=SkyBlue_Cheque_Dress",
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Blue_Dress/2.jpg",
@@ -74,12 +74,12 @@
       ],
       "outOfStock": true
     },{
-      "id": "Cream_Dress",
-      "title": "Cream Dress",
-      "price": "₹1,499.00",
+      "id": "Strawberry_Cream_Dress",
+      "title": "Strawberry Cream Dress",
+      "price": "₹649.00",
       "description": "A comfy handcrafted dress crafted for easy movement. Lightweight, breathable, and perfect for playtime and daily wear.",
       "amazonLink": "https://amzn.in/d/9a1djEM",
-      "link": "template_buy.html?category=baby_accessories&prod=Cream_Dress",
+      "link": "template_buy.html?category=baby_accessories&prod=Strawberry_Cream_Dress",
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Cream_Dress/4.jpg",
@@ -101,12 +101,12 @@
       "outOfStock": true
     },
     {
-      "id": "Cream_Darkstrip_Sweater",
-      "title": "Cream Coloured Stripes Sweater",
-      "price": "₹1,499.00",
+      "id": "Cream_Bear_Sweater",
+      "title": "Cream Bear Sweater",
+      "price": "₹1,099.00",
       "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
       "amazonLink": "https://amzn.in/d/9a1djEM",
-      "link": "template_buy.html?category=baby_accessories&prod=Cream_Darkstrip_Sweater",
+      "link": "template_buy.html?category=baby_accessories&prod=Cream_Bear_Sweater",
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/1.jpg",

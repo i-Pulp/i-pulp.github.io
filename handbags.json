@@ -3,12 +3,12 @@
   "description": "Handcrafted crochet handbag. Blends traditional art with modern style. Made with soft, durable yarn for a unique texture. Perfect for a Boho-chic look or casual use. Lightweight and robust for essentials.",
   "products": [
     {
-      "id": "Black_Greenstrip_Bag",
-      "title": "Green Bag with Black Strips",
-      "price": "₹699.00",
+      "id": "Black_Greenstrip_Tote_Bag",
+      "title": "Black Tote Bag with Green Strips",
+      "price": "₹649.00",
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
       "amazonLink": "https://www.amazon.in/",
-      "link": "template_buy.html?category=handbags&prod=Black_Greenstrip_Bag",
+      "link": "template_buy.html?category=handbags&prod=Black_Greenstrip_Tote_Bag",
       "outOfStock": true,
       "images": [
         {
