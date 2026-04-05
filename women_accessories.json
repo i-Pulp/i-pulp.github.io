@@ -9,7 +9,8 @@
       "description": "A soft and cozy cream-colored crochet shawl with intricate stitch detailing. Pairs beautifully with winter outfits and offers premium warmth and comfort.",
       "amazonLink": "https://amzn.in/",
       "link": "template_buy.html?category=women_accessories&prod=Cream_Blackstrip_Shawl",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Women_Accessories/Cream_Blackstrip_Shawl/12.jpg",
