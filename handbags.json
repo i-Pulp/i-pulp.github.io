@@ -9,7 +9,8 @@
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
       "amazonLink": "https://www.amazon.in/",
       "link": "template_buy.html?category=handbags&prod=Black_Greenstrip_Tote_Bag",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Handbags/Black_Greenstrip_Bag/1.jpg",
@@ -53,8 +54,9 @@
       "price": "₹899.00",
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
       "amazonLink": "https://www.amazon.in/gp/product/B0GS95XHJP/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_1d2180a6-8e73-489d-aff2-24ec1baca6a0",
-      "link": "template_buy.html?category=handbags&prod=yellow_bag",
-      "outOfStock": true,
+      "link": "template_buy.html?category=handbags&prod=greyWhite_Bag",
+      "outOfStock": false,
+      "comingSoon": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/2.jpg",
@@ -75,7 +77,8 @@
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
       "amazonLink": "https://www.amazon.in/gp/product/B0GS9KBRDV/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_be2303b7-693b-4aed-8c4b-a6c4d1a568ff",
       "link": "template_buy.html?category=handbags&prod=yellow_bag",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/yellow_bag/2.jpg",

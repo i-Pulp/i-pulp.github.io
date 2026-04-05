@@ -21,7 +21,8 @@
           "styles": "transform: scale(1.1);"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false,
+      "comingSoon": true
     },{
       "id": "Colourful_Ponchu",
       "title": "Bright Coloured Poncho",
@@ -46,7 +47,8 @@
           "styles": "transform: scale(1.15);"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false,
+      "comingSoon": true
     },
     {
       "id": "SkyBlue_Cheque_Dress",
@@ -72,7 +74,8 @@
           "styles": "transform: scale(1.15);"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false,
+      "comingSoon": true
     },{
       "id": "Strawberry_Cream_Dress",
       "title": "Strawberry Cream Dress",
@@ -98,7 +101,8 @@
           "classes": ["contain-v"]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false,
+      "comingSoon": true
     },
     {
       "id": "Cream_Bear_Sweater",
@@ -129,7 +133,8 @@
           "styles": "transform: scale(1.15);"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false,
+      "comingSoon": true
     },
     {
       "id": "Green_White_Full",

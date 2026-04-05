@@ -7,7 +7,8 @@
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
       "amazonLink": "https://www.amazon.in/",
       "link": "template_buy.html?category=handbags&prod=Black_Greenstrip_Tote_Bag",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Handbags/Black_Greenstrip_Bag/1.jpg",
@@ -28,7 +29,8 @@
       "description": "A soft and cozy cream-colored crochet shawl with intricate stitch detailing. Pairs beautifully with winter outfits and offers premium warmth and comfort.",
       "amazonLink": "https://amzn.in/",
       "link": "template_buy.html?category=women_accessories&prod=Cream_Blackstrip_Shawl",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Women_Accessories/Cream_Blackstrip_Shawl/12.jpg"
@@ -53,7 +55,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Blue_Poncho/2.jpg"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false,
+      "comingSoon": true
     },{
       "id": "Colourful_Ponchu",
       "title": "Bright Coloured Poncho",
@@ -72,7 +75,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Colourful_Ponchu/3.jpg"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false,
+      "comingSoon": true
     },
     {
       "id": "SkyBlue_Cheque_Dress",
@@ -92,7 +96,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Blue_Dress/3.jpg"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false,
+      "comingSoon": true
     },{
       "id": "Strawberry_Cream_Dress",
       "title": "Strawberry Cream Dress",
@@ -114,7 +119,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Clothes/Cream_Dress/3.jpg"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false,
+      "comingSoon": true
     },
     {
       "id": "Cream_Bear_Sweater",
@@ -137,7 +143,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/4.jpg"
         }
       ],
-      "outOfStock": true
+      "outOfStock": false,
+      "comingSoon": true
     },
     {
       "id": "Colourful_Poncho",
@@ -170,7 +177,8 @@
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
       "amazonLink": "https://www.amazon.in/",
       "link": "template_buy.html?category=handbags&prod=pinkWhite_bag",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/1.jpg",
@@ -188,7 +196,8 @@
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
       "amazonLink": "https://www.amazon.in/",
       "link": "template_buy.html?category=handbags&prod=yellow_bag",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/2.jpg",
@@ -206,7 +215,8 @@
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
       "amazonLink": "https://www.amazon.in/",
       "link": "template_buy.html?category=handbags&prod=yellow_bag",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/yellow_bag/2.jpg"
@@ -223,7 +233,8 @@
       "description": "Your Bunny friend to accompany you on your journey.",
       "amazonLink": "https://www.amazon.in/",
       "link": "template_buy.html?category=handbags&prod=bunny",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Toys/bunny/1.jpg"
@@ -241,9 +252,10 @@
       "title": "Curtain Tie",
       "price": "₹499.00",
       "description": "Curtain tie for your stylish curtain.",
-      "amazonLink": "https://www.amazon.in/",
+      "amazonLink": "https://amzn.in/d/0bx30lgs",
       "link": "template_buy.html?category=handbags&prod=blue_grey",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Blue_Grey/1.jpg"
@@ -261,9 +273,10 @@
       "title": "Flower Curtain Tie",
       "price": "₹499.00",
       "description": "Curtain tie for your stylish curtain.",
-      "amazonLink": "https://www.amazon.in/",
+      "amazonLink": "https://amzn.in/d/0idx9GNy",
       "link": "template_buy.html?category=handbags&prod=flower",
-      "outOfStock": true,
+      "outOfStock": false,
+      "comingSoon": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Flower/1.jpg"
