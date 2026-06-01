@@ -46,12 +46,12 @@
         }
       ]
     },{
-      "id": "Alligator_Hairpins",
-      "title": "Hairpins",
+      "id": "Alligator_Clip",
+      "title": "Alligator Clip",
       "price": "₹499.00",
       "description": "",
       "amazonLink": "https://amzn.in/d/01Q9cbPv",
-      "link": "template_buy.html?category=women_fashion_accessories&prod=Alligator_Hairpins",
+      "link": "template_buy.html?category=women_fashion_accessories&prod=Alligator_Clip",
       "outOfStock": false,
       "comingSoon": false,
       "images": [
