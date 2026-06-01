@@ -1,6 +1,349 @@
 {
   "products": [
     {
+      "id": "Red_White_Clutchers",
+      "title": "Red & White Clutchers",
+      "price": "₹299.00",
+      "description": "",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=women_fashion_accessories&prod=Red_White_Clutchers",
+      "outOfStock": false,
+      "comingSoon": true,
+      "images": [
+        {
+         "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/310551b80a3c4e9b5d3094234a248246eb93f5c7/Images/Category/Women_Fashion_Accessories/Clutchers/1.jpg",
+         "styles": "object-position: 50% 30%;"
+        }
+      ]
+    },{
+      "id": "Sunflower_Clutchers",
+      "title": "Sunflower Clutchers",
+      "price": "₹299.00",
+      "description": "",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=women_fashion_accessories&prod=Sunflower_Clutchers",
+      "outOfStock": false,
+      "comingSoon": true,
+      "images": [
+        {
+        "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/310551b80a3c4e9b5d3094234a248246eb93f5c7/Images/Category/Women_Fashion_Accessories/Clutchers/2.jpg",
+        "styles": "object-position: 50% 80%;object-fit: contain;"
+        }
+      ]
+    },{
+      "id": "Bulk_Hairpins",
+      "title": "Hairpins",
+      "price": "₹399.00",
+      "description": "",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=women_fashion_accessories&prod=Bulk_Hairpins",
+      "outOfStock": false,
+      "comingSoon": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/310551b80a3c4e9b5d3094234a248246eb93f5c7/Images/Category/Women_Fashion_Accessories/Hairpins/1.jpg",
+          "styles": "object-position: 50% 80%;object-fit: contain;"
+        }
+      ]
+    },{
+      "id": "Alligator_Hairpins",
+      "title": "Hairpins",
+      "price": "₹499.00",
+      "description": "",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=women_fashion_accessories&prod=Alligator_Hairpins",
+      "outOfStock": false,
+      "comingSoon": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/310551b80a3c4e9b5d3094234a248246eb93f5c7/Images/Category/Women_Fashion_Accessories/Hairpins/2.jpg",
+          "styles": "object-position: 50% 80%;object-fit: contain;"
+        }
+      ]
+    },{
+      "id": "Gajra",
+      "title": "Gajra",
+      "price": "₹699.00",
+      "description": "",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=women_fashion_accessories&prod=Gajra",
+      "outOfStock": false,
+      "comingSoon": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/310551b80a3c4e9b5d3094234a248246eb93f5c7/Images/Category/Women_Fashion_Accessories/Gajra/1.jpg",
+          "styles": "object-position: 50% 80%;object-fit: contain;"
+        }
+      ]
+    },{
+      "id": "Yellow_Tote_Bag",
+      "title": "Yellow Tote Bag",
+      "price": "₹499.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=Yellow_Tote_Bag",
+      "outOfStock": false,
+      "comingSoon": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Bag/1.jpg",
+          "styles": "object-position: 50% 80%;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Bag/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Bag/3.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Bag/4.png"
+        }
+      ]
+    },{
+      "id": "Blue_Tote_Bag",
+      "title": "Blue Tote Bag",
+      "price": "₹899.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=Blue_Tote_Bag",
+      "outOfStock": false,
+      "comingSoon": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Blue%20Totebag/1.jpg",
+          "styles": "object-position: 50% 80%;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Blue%20Totebag/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Blue%20Totebag/3.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Blue%20Totebag/4.png"
+        }
+      ]
+    },{
+      "id": "Mushroom_Dress",
+      "title": "White Red Dress",
+      "price": "₹999.00",
+      "description": "Beautifully Handcrafted Dress with a little cartoon pouch for your little ones.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Mushroom_Dress",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Red%20Cartoon%20Pouch/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Clothes/Mushroom%20Dress/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },{
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Clothes/Mushroom%20Dress/3.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.8);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Clothes/Mushroom%20Dress/4.png",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Red%20Cartoon%20Pouch/2.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Red%20Cartoon%20Pouch/3.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Red%20Cartoon%20Pouch/4.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Red%20Cartoon%20Pouch/5.png",
+          "classes": ["contain-v"]
+        }
+      ],
+      "outOfStock": false,
+      "comingSoon": true
+    },{
+      "id": "Yellow_Dress",
+      "title": "White Yellow Dress",
+      "price": "₹999.00",
+      "description": "Beautifully Handcrafted Dress with a little cartoon pouch for your little ones.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Yellow_Dress",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Cartoon%20Pouch/1.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Clothes/Yellow%20Dress/2.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },{
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Clothes/Yellow%20Dress/3.jpg",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.8);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Clothes/Yellow%20Dress/4.png",
+          "classes": ["contain-v"],
+          "styles": "transform: scale(1.1);"
+        },
+        {
+         "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Cartoon%20Pouch/2.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+        "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Cartoon%20Pouch/3.png",
+          "classes": ["contain-v"]
+        }
+      ],
+      "outOfStock": false,
+      "comingSoon": true
+    },{
+      "id": "White_Green_Maroon_Frock",
+      "title": "White colourful Frock",
+      "price": "₹999.00",
+      "description": "Beautifully Handcrafted frock for your little ones to tackle winter.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=White_Green_Maroon_Frock",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/White_Green_Maroon%20frock/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/White_Green_Maroon%20frock/2.jpg"
+        },{
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/White_Green_Maroon%20frock/3.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/White_Green_Maroon%20frock/4.png"
+        }
+      ],
+      "outOfStock": false,
+      "comingSoon": true
+    },{
+      "id": "Red_BlackStrip_Poncho",
+      "title": "Red & Black Poncho",
+      "price": "₹699.00",
+      "description": "Beautifully Handcrafted Poncho for your little ones to tackle winter.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Red_BlackStrip_Poncho",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Poncho/Red_BlackStrip%20Ponchu/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Poncho/Red_BlackStrip%20Ponchu/2.jpg"
+        },{
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Poncho/Red_BlackStrip%20Ponchu/3.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Poncho/Red_BlackStrip%20Ponchu/4.png"
+        }
+      ],
+      "outOfStock": false,
+      "comingSoon": true
+    },{
+      "id": "Multicolour_Cream_Poncho",
+      "title": "Multicolour Poncho",
+      "price": "₹999.00",
+      "description": "Beautifully Handcrafted Poncho for your little ones to tackle winter.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Multicolour_Cream_Poncho",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Poncho/Multicolour%20with%20Cream%20Ponchu/3.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Poncho/Multicolour%20with%20Cream%20Ponchu/4.jpg"
+        },{
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Poncho/Multicolour%20with%20Cream%20Ponchu/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Poncho/Multicolour%20with%20Cream%20Ponchu/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Poncho/Multicolour%20with%20Cream%20Ponchu/5.png"
+        }
+      ],
+      "outOfStock": false,
+      "comingSoon": true
+    },{
+      "id": "Blanket",
+      "title": "Crochet Blanket",
+      "price": "₹1499.00",
+      "description": "Beautifully Handcrafted Blanket for your little ones. ",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Blanket",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Bedsheets_Blanket/Cream_Brown%20Blanket/1.jpg",
+          "styles": "object-position: 50% 80%;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Bedsheets_Blanket/Cream_Brown%20Blanket/2.png"
+        }
+      ],
+      "outOfStock": false,
+      "comingSoon": true
+    },{
+      "id": "Bedsheets",
+      "title": "Bedsheets",
+      "price": "₹799.00",
+      "description": "Beautifully Handcrafted Bedsheets for your little ones.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Bedsheets",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Bedsheets_Blanket/Bedsheets/1.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Bedsheets_Blanket/Bedsheets/2.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Bedsheets_Blanket/Bedsheets/3.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Bedsheets_Blanket/Bedsheets/4.png"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Bedsheets_Blanket/Bedsheets/5.png"
+        }
+      ],
+      "outOfStock": false,
+      "comingSoon": true
+    },{
+      "id": "Green_Dress",
+      "title": "Green White Dress",
+      "price": "₹799.00",
+      "description": "Lightweight, breathable, and perfect for playtime and daily wear.",
+      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "link": "template_buy.html?category=baby_accessories&prod=Green_Dress",
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Clothes/Green%20Dress/1.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Clothes/Green%20Dress/2.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Clothes/Green%20Dress/3.jpg"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/951a66511ad2377d3d934bf63f108ed3d068ccc6/Images/Category/Baby_Products/Clothes/Green%20Dress/4.jpg"
+        }
+      ],
+      "outOfStock": false,
+      "comingSoon": true
+    },{
       "id": "Black_Greenstrip_Tote_Bag",
       "title": "Black Tote Bag with Green Strips",
       "price": "₹649.00",
@@ -121,301 +464,6 @@
       ],
       "outOfStock": false,
       "comingSoon": true
-    },
-    {
-      "id": "Cream_Bear_Sweater",
-      "title": "Cream Bear Sweater",
-      "price": "₹1,099.00",
-      "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
-      "amazonLink": "https://amzn.in/d/9a1djEM",
-      "link": "template_buy.html?category=baby_accessories&prod=Cream_Bear_Sweater",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/1.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/3.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Cream_Darkstrip_Sweater/4.jpg"
-        }
-      ],
-      "outOfStock": false,
-      "comingSoon": true
-    },
-    {
-      "id": "Colourful_Poncho",
-      "title": "Colourful Poncho",
-      "price": "₹999.00",
-      "description": "A beautifully handcrafted crochet poncho. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GS9Z27XT/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_51da4375-6e58-40f8-aa16-0aa4fed494eb",
-      "link": "template_buy.html?category=women_accessories&prod=Colourful_Poncho",
-      "outOfStock": false,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/1.jpg",
-          "styles": "object-position: 50% 85%;"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/3.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Women_Accessories/Colourful_Poncho/4.jpg"
-        }
-      ]
-    },
-    {
-      "id": "pinkWhite_bag",
-      "title": "Pink White Bag",
-      "price": "₹899.00",
-      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
-      "amazonLink": "https://www.amazon.in/",
-      "link": "template_buy.html?category=handbags&prod=pinkWhite_bag",
-      "outOfStock": false,
-      "comingSoon": true,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/1.jpg",
-          "styles": "object-position: 50% 90%;"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/2.jpg"
-        }
-      ]
-    },
-    {
-      "id": "greyWhite_Bag",
-      "title": "Grey White Bag",
-      "price": "₹899.00",
-      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
-      "amazonLink": "https://www.amazon.in/",
-      "link": "template_buy.html?category=handbags&prod=yellow_bag",
-      "outOfStock": false,
-      "comingSoon": true,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/2.jpg",
-          "styles": "object-position: 50% 90%;"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/1.jpg"
-        }
-      ]
-    },
-    {
-      "id": "yellow_bag",
-      "title": "Yellow Bag",
-      "price": "₹899.00",
-      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
-      "amazonLink": "https://www.amazon.in/",
-      "link": "template_buy.html?category=handbags&prod=yellow_bag",
-      "outOfStock": false,
-      "comingSoon": true,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/yellow_bag/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/yellow_bag/1.jpg"
-        }
-      ]
-    },
-    {
-      "id": "bunny",
-      "title": "Bunny",
-      "price": "₹699.00",
-      "description": "Your Bunny friend to accompany you on your journey.",
-      "amazonLink": "https://www.amazon.in/",
-      "link": "template_buy.html?category=handbags&prod=bunny",
-      "outOfStock": false,
-      "comingSoon": true,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Toys/bunny/1.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Toys/bunny/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Toys/bunny/3.jpg"
-        }
-      ]
-    },
-    {
-      "id": "blue_grey",
-      "title": "Curtain Tie",
-      "price": "₹499.00",
-      "description": "Curtain tie for your stylish curtain.",
-      "amazonLink": "https://amzn.in/d/0bx30lgs",
-      "link": "template_buy.html?category=handbags&prod=blue_grey",
-      "outOfStock": false,
-      "comingSoon": false,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Blue_Grey/1.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Blue_Grey/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Blue_Grey/3.jpg"
-        }
-      ]
-    },
-    {
-      "id": "flower",
-      "title": "Flower Curtain Tie",
-      "price": "₹499.00",
-      "description": "Curtain tie for your stylish curtain.",
-      "amazonLink": "https://amzn.in/d/0idx9GNy",
-      "link": "template_buy.html?category=handbags&prod=flower",
-      "outOfStock": false,
-      "comingSoon": false,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Flower/1.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Flower/4.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Flower/3.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Home_Accessories/CurtainTie/Flower/2.jpg"
-        }
-      ]
-    },
-    {
-      "id": "Green_White_Full",
-      "title": "Green-White Full Sweater",
-      "price": "₹1,499.00",
-      "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
-      "amazonLink": "https://amzn.in/d/7mDVzTH",
-      "link": "template_buy.html?category=baby_accessories&prod=Green_White_Full",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Green_White_Full/4_isto_3.jpg",
-          "styles": "object-position: 50% 50%;object-fit: contain;"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/2.jpg"  
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/1c80d422cf543709baf5ce9e9000e85ff44ee9d2/Images/Category/Baby_Products/Green_White_Full/3.png" 
-        }
-      ],
-      "outOfStock": false
-    },
-    {
-      "id": "White_Muffler",
-      "title": "White Muffler",
-      "price": "₹899.00",
-      "description": "A beautifully handcrafted crochet muffler. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
-      "amazonLink": "https://amzn.in/d/eGpTDIE",
-      "link": "template_buy.html?category=women_accessories&prod=White_Muffler",
-      "outOfStock": false,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Women_Accessories/Muffler_White/4_isto_3.jpg",
-          "styles": "object-position: 50% 50%;object-fit: contain;"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_White/2.jpg"
-        }
-      ]
-    },
-    {
-      "id": "Muffler_Multi",
-      "title": "MultiColour Muffler",
-      "price": "₹999.00",
-      "description": "A beautifully handcrafted crochet muffler with blending colours. Lightweight, elegant, and perfect for both everyday wear and festive styling.",
-      "amazonLink": "https://amzn.in/d/fCHttQr",
-      "link": "template_buy.html?category=women_accessories&prod=Muffler_Multi",
-      "outOfStock": false,
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Women_Accessories/Muffler_Multi/4_isto_3.jpg",
-          "styles": "object-position: 50% 80%;object-fit: contain;"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/5c373ab506a214f2252f5ef2a3d72a7e79c156a3/Images/Category/Women_Accessories/Muffler_Multi/2.jpg"
-        }
-      ]
-    },
-    {
-      "id": "Triangle_Poncho",
-      "title": "Colourfull Poncho",
-      "price": "₹999.00",
-      "description": "A unique comfy poncho crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
-      "amazonLink": "https://amzn.in/d/fDJb0dt",
-      "link": "template_buy.html?category=baby_accessories&prod=Triangle_Poncho",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Baby_Products/Poncho/Triangle_Poncho/1.jpg",
-          "styles": "object-position: 50% 30%;"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Baby_Products/Poncho/Triangle_Poncho/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/0eb989732e27de84f4d0ade9d9a99c62813fbc4a/Images/Category/Baby_Products/Poncho/Triangle_Poncho/3.jpg"
-        }
-      ],
-      "outOfStock": false
-    },
-    {
-      "id": "Pink_Yellow_Poncho",
-      "title": "Pink & Yellow Poncho",
-      "price": "₹999.00",
-      "description": "A comfy poncho crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://amzn.in/d/1pFUmHx",
-      "link": "template_buy.html?category=baby_accessories&prod=Pink_Yellow_Poncho",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/1.jpg",
-          "styles": "object-position: 50% 80%;"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/3.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/4.png"
-        }
-      ],
-      "outOfStock": false
-    },
-    {
-      "id": "Red_White_Frock",
-      "title": "Red & White Frock",
-      "price": "₹1,499.00",
-      "description": "A comfy red & white frock crafted for easy movement. Lightweight, breathable, and perfect for playtime or daily wear.",
-      "amazonLink": "https://amzn.in/d/9NH7AMK",
-      "link": "template_buy.html?category=baby_accessories&prod=Red_White_Frock",
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/1.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/2.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/3.jpg"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Red_White_Frock/4.png"
-        }
-      ],
-      "outOfStock": false
     }
   ]
 }

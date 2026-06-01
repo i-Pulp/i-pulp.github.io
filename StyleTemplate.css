@@ -1,4 +1,4 @@
-  /* ------------------------------------------- */
+/* ------------------------------------------- */
   /* 1. Variables & Global Reset                 */
   /* ------------------------------------------- */
   :root {
@@ -97,6 +97,11 @@
     box-shadow: var(--shadow);
     gap: 24px;
   }
+
+  .detail-view .coming-soon-tag,
+  .detail-view .out-of-stock-tag {
+  display: none !important;
+}
 
   h1 {
     font-size: clamp(1.6rem, 2.4vw, 2.6rem);
@@ -224,15 +229,18 @@
     gap: 16px;
     justify-content: center;
     margin-bottom: 20px;
+    position: relative; /* Anchors absolute tags like 'Out of Stock' */
   }
 
   .product-images img {
-    width: calc(50% - 12px);
+    /* Fixed frame: 2 per row logic (50% minus half the gap) */
+    width: calc(50% - 8px); 
+    aspect-ratio: 1 / 1;    /* Keeps the frame square and fixed */
     border-radius: var(--radius);
-    object-fit: contain;
-    max-height: 300px;
-    background: #fafafa;
+    object-fit: contain;    /* Ensures image fits inside without clipping */
+    background: #fafafa;    /* Makes the 'frame' visible */
     border: 1px solid #dddddd;
+    flex-shrink: 0;
   }
 
   .product-link-wrapper {
@@ -345,5 +353,6 @@
   @media (min-width: 1024px) { .product-grid { grid-template-columns: repeat(3, 1fr); } }
   @media (max-width: 480px) {
     main.detail-view { margin: 16px 12px; padding: 16px; }
-    .product-images img { width: 100%; }
+    /* Maintain 2 frames per row on mobile as requested */
+    .product-images img { width: calc(50% - 8px); } 
   }

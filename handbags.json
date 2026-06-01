@@ -3,6 +3,61 @@
   "description": "Handcrafted crochet handbag. Blends traditional art with modern style. Made with soft, durable yarn for a unique texture. Perfect for a Boho-chic look or casual use. Lightweight and robust for essentials.",
   "products": [
     {
+      "id": "Yellow_Tote_Bag",
+      "title": "Yellow Tote Bag",
+      "price": "₹499.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=Yellow_Tote_Bag",
+      "outOfStock": false,
+      "comingSoon": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Bag/1.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Bag/2.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Bag/3.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Yellow%20Bag/4.png",
+          "classes": ["contain-v"]
+        }
+      ]
+    },{
+      "id": "Blue_Tote_Bag",
+      "title": "Blue Tote Bag",
+      "price": "₹899.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://www.amazon.in/",
+      "link": "template_buy.html?category=handbags&prod=Blue_Tote_Bag",
+      "outOfStock": false,
+      "comingSoon": true,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Blue%20Totebag/1.jpg",
+          "classes": ["contain-h"],
+          "styles": "transform: scale(1.25);"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Blue%20Totebag/2.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Blue%20Totebag/3.jpg",
+          "classes": ["contain-v"]
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/745aa80730b1ae336901373b8f36fe3087489e32/Images/Category/Handbags/Blue%20Totebag/4.png",
+          "classes": ["contain-v"]
+        }
+      ]
+    },{
       "id": "Black_Greenstrip_Tote_Bag",
       "title": "Black Tote Bag with Green Strips",
       "price": "₹649.00",

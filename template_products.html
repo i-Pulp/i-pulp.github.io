@@ -70,15 +70,31 @@
         article.className = 'product-card';
         article.onclick = () => window.location.href = detailHref;
 
-        const slidesHTML = prod.images.map(img => `<img src="${typeof img === 'string' ? img : img.src}" alt="${prod.title}" loading="lazy">`).join('');
+        // Updated logic to handle classes and styles
+        const slidesHTML = prod.images.map(img => {
+          const isObj = typeof img !== 'string';
+          const src = isObj ? img.src : img;
+          const classes = (isObj && img.classes) ? img.classes.join(' ') : '';
+          
+          let styles = '';
+          if (isObj && img.styles) {
+            styles = Array.isArray(img.styles) ? img.styles.join(' ') : img.styles;
+          }
+
+          return `<img src="${src}" class="${classes}" style="${styles}" alt="${prod.title}" loading="lazy">`;
+        }).join('');
+
+        const showButtons = prod.images.length > 1;
 
         article.innerHTML = `
           <div class="slider">
             <div class="slides">${slidesHTML}</div>
             ${prod.outOfStock ? '<div class="out-of-stock-tag">Out Of Stock</div>' : ''}
             ${prod.comingSoon ? '<div class="coming-soon-tag">Coming Soon!</div>' : ''}
-            <button class="slider-button prev" aria-label="Prev">&#10094;</button>
-            <button class="slider-button next" aria-label="Next">&#10095;</button>
+            ${showButtons ? `
+              <button class="slider-button prev" aria-label="Prev">&#10094;</button>
+              <button class="slider-button next" aria-label="Next">&#10095;</button>
+            ` : ''}
           </div>
           <h2 class="product-title">${prod.title}</h2>
         `;
@@ -132,8 +148,9 @@
   function setupSlider(slider) {
     const slides = slider.querySelector('.slides');
     const count = slides.children.length;
-    let index = 0;
+    if (count <= 1) return;
 
+    let index = 0;
     const update = () => slides.style.transform = `translateX(-${index * 100}%)`;
 
     slider.querySelector('.prev').onclick = (e) => {
