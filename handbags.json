@@ -90,6 +90,7 @@
       "amazonLink": "https://amzn.in/d/09wPVUZT",
       "link": "template_buy.html?category=handbags&prod=Flower_Bucket_Bag",
       "outOfStock": false,
+      "comingSoon": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/1.jpg",
