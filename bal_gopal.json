@@ -9,7 +9,7 @@
       "description": "Sizes 3 & 4 - Adorn your deity with this beautiful, finely crafted soft green crochet dress. The poshak features a ruffled texture, delicate pearl accents, and a central jewel embellishment, offering a divine look perfect for festive occasions or daily worship.",
       "amazonLink": "https://www.amazon.in/gp/product/B0G4GR6Z9R/ref=cx_skuctr_share?smid=AO46KA4WB8YPO",
       "link": "template_buy.html?category=bal_gopal&prod=green",
-      "outOfStock": false,
+      "outOfStock": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/232bca3c76c0a71060f6209139a22a5160103264/Images/Category/Bal_Gopal/Green/1.jpg",
@@ -154,7 +154,7 @@
       "description": "Sizes 3 & 4 -Dress your beloved deity in cozy elegance. This meticulously hand-crocheted poshak provides comforting warmth and devotional beauty.",
       "amazonLink": "https://www.amazon.in/gp/product/B0G4HJ6P7P/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_8670cf4d-ac53-45c6-99ac-c35b0b0cda40",
       "link": "template_buy.html?category=bal_gopal&prod=orange_white",
-      "outOfStock": false,
+      "outOfStock": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/232bca3c76c0a71060f6209139a22a5160103264/Images/Category/Bal_Gopal/Orange_White/1.jpg",
