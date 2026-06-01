@@ -668,7 +668,7 @@
           "classes": [""]
         }
       ],
-      "outOfStock": false
+      "outOfStock": true
     },
     {
       "id": "yellow_sweater",
