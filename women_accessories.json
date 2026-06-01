@@ -127,7 +127,7 @@
       "description": "A soft and cozy cream-colored crochet shawl with intricate stitch detailing. Pairs beautifully with winter outfits and offers premium warmth and comfort.",
       "amazonLink": "https://amzn.in/d/anRmiWh",
       "link": "template_buy.html?category=women_accessories&prod=cream_shawl",
-      "outOfStock": false,
+      "outOfStock": true,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/943afbd935bf2137f6f59fb1dd9c30069e0cd991/Images/Category/Women_Accessories/Cream_Shawl/Gemini_Generated_Image_m1tholm1tholm1th.jpg",
