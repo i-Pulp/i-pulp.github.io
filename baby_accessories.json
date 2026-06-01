@@ -347,7 +347,7 @@
           "styles": "transform: scale(1.3);"
         }
       ],
-      "outOfStock": false
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "Triangle_Poncho",
@@ -370,7 +370,7 @@
           "styles": "transform: scale(1.3);"
         }
       ],
-      "outOfStock": false
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "Pink_Yellow_Poncho",
@@ -395,7 +395,7 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Poncho/Pink_White_Poncho/4.png"
         }
       ],
-      "outOfStock": false
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "Red_White_Frock",
@@ -422,7 +422,7 @@
           "styles": "transform: scale(1.2);"
         }
       ],
-      "outOfStock": false
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "Black_White",
@@ -442,7 +442,7 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/Black_White/3.jpg"
         }
       ],
-      "outOfStock": false
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "Pink_White",
@@ -468,7 +468,7 @@
           "styles": "transform: scale(1.2);"
         }
       ],
-      "outOfStock": false
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "half_sweater",
@@ -501,7 +501,7 @@
           "styles": "transform: scale(1.4);"
         }
       ],
-      "outOfStock": false
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "maroon_purple_frock",
@@ -520,7 +520,8 @@
           "classes": [],
           "styles": "transform: scale(1.2);"
         }
-      ]
+      ],
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "romper",
@@ -561,7 +562,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Baby_Products/White_Blue_Full_Sweater/13.jpg",
           "classes": ["contain-h"]
         }
-      ]
+      ],
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "white_blue_frock",
@@ -583,7 +585,8 @@
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/b46c4f3bc9e8a465a793e3cdb5152a4fb2ed7469/Images/Category/Baby_Products/White_Blue_Frock/11.png",
           "classes": [ ""]
         }
-      ]
+      ],
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "pink_poncho",
@@ -618,7 +621,7 @@
           "classes": ["contain-h"]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false, "comingSoon": false, "sold": true
     },
     {
       "id": "blue_yellow_poncho",
@@ -645,7 +648,7 @@
           "classes": [""]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false, "comingSoon": false, "sold": true
     },
     {
       "id": "swaddling_swinging",
@@ -668,7 +671,7 @@
           "classes": [""]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false, "comingSoon": false,"sold": true
     },
     {
       "id": "yellow_sweater",
@@ -697,7 +700,8 @@
           "classes": [ ""],
           "styles": "transform: scale(1.4);"
         }
-      ]
+      ],
+      "outOfStock": false, "comingSoon": false,"sold": false
     },
     {
       "id": "red_frock",
@@ -724,7 +728,7 @@
           "classes": [ ""]
         }
       ],
-      "outOfStock": true
+      "outOfStock": false, "comingSoon": false, "sold": true
     }
   ]
 }

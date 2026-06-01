@@ -59,14 +59,22 @@ async function loadProductPage() {
         const instaBtn = document.getElementById("insta-btn");
 
         // Visibility and Text Logic
-        if (product.outOfStock) {
+        if (product.sold) {
+            // Priority 1: Sold logic
+            amazonBtn.style.display = 'none';
+            instaBtn.style.display = 'block';
+            instaBtn.textContent = 'Custom Order';
+        } else if (product.outOfStock) {
+            // Priority 2: Out of Stock logic
             amazonBtn.style.display = 'none';
             instaBtn.style.display = 'none';
         } else if (product.comingSoon) {
+            // Priority 3: Coming Soon logic
             amazonBtn.style.display = 'none';
             instaBtn.style.display = 'block';
             instaBtn.textContent = 'Pre-Order';
         } else {
+            // Default: Available
             amazonBtn.style.display = product.amazonLink ? 'block' : 'none';
             amazonBtn.href = product.amazonLink || '#';
             instaBtn.style.display = 'block';
@@ -75,8 +83,15 @@ async function loadProductPage() {
 
         const imagesContainer = document.getElementById("product-images");
         imagesContainer.innerHTML = '';
-        if (product.outOfStock) imagesContainer.innerHTML += '<div class="out-of-stock-tag">Out Of Stock</div>';
-        if (product.comingSoon) imagesContainer.innerHTML += '<div class="coming-soon-tag">Coming Soon!</div>';
+        
+        // Add specific tags (Mutually exclusive check)
+        if (product.sold) {
+            imagesContainer.innerHTML += '<div class="sold-tag">Sold!</div>';
+        } else if (product.outOfStock) {
+            imagesContainer.innerHTML += '<div class="out-of-stock-tag">Out Of Stock</div>';
+        } else if (product.comingSoon) {
+            imagesContainer.innerHTML += '<div class="coming-soon-tag">Coming Soon!</div>';
+        }
 
         product.images.forEach(imgObj => {
             const img = document.createElement("img");

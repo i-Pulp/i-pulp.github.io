@@ -156,22 +156,33 @@
     margin: 0 0 8px 0;
   }
 
-  .out-of-stock-tag, .coming-soon-tag {
-    position: absolute;
-    top: 7px; left: 7px;
-    color: white;
-    font-weight: 700;
-    padding: 4px 10px;
-    border-radius: 15px;
-    font-size: 0.75rem;
-    z-index: 20;
-    pointer-events: none;
-    text-transform: uppercase;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  }
-  
-  .out-of-stock-tag { background-color: rgba(199,106,124,0.9); }
-  .coming-soon-tag { background-color: rgba(236, 104, 104, 0.9); }
+  .out-of-stock-tag, .coming-soon-tag, .sold-tag {
+  position: absolute;
+  top: 7px; left: 7px;
+  color: white;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  z-index: 20;
+  pointer-events: none;
+  text-transform: uppercase;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.out-of-stock-tag { background-color: rgba(199,106,124,0.9); }
+.coming-soon-tag { background-color: rgba(236, 104, 104, 0.9); }
+/* Added Sold Tag Style (Dark Grey/Black) */
+.sold-tag { background-color: rgba(199, 54, 62, 0.9); }
+
+/* ------------------------------------------- */
+/* 3. Layout Containers (Detail View Update)   */
+/* ------------------------------------------- */
+.detail-view .coming-soon-tag,
+.detail-view .out-of-stock-tag,
+.detail-view .sold-tag {
+  display: none !important;
+}
 
   /* ------------------------------------------- */
   /* 5. Image Sliders & Galleries                */

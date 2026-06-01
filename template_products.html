@@ -32,148 +32,156 @@
 
 <script>
   const productsPerPage = 6;
-  let products = [];
-  let totalPages = 1;
-  let currentPage = parseInt(sessionStorage.getItem('lastPage')) || 1;
+let products = [];
+let totalPages = 1;
+let currentPage = parseInt(sessionStorage.getItem('lastPage')) || 1;
 
-  async function loadProducts() {
-    const params = new URLSearchParams(window.location.search);
-    const category = params.get('category') || 'baby_accessories';
-    try {
-      const res = await fetch(`${category}.json`);
-      const data = await res.json();
-      document.getElementById('page-title').textContent = data.title;
-      document.getElementById('page-description').textContent = data.description;
-      products = data.products || [];
-      products.forEach(p => { p.id = p.id.replace(/_/g, '-'); });
-      totalPages = Math.ceil(products.length / productsPerPage);
-      renderPage(currentPage > totalPages ? 1 : currentPage);
-    } catch (err) { console.error(err); }
-  }
+async function loadProducts() {
+  const params = new URLSearchParams(window.location.search);
+  const category = params.get('category') || 'baby_accessories';
+  try {
+    const res = await fetch(`${category}.json`);
+    const data = await res.json();
+    document.getElementById('page-title').textContent = data.title;
+    document.getElementById('page-description').textContent = data.description;
+    products = data.products || [];
+    products.forEach(p => { p.id = p.id.replace(/_/g, '-'); });
+    totalPages = Math.ceil(products.length / productsPerPage);
+    renderPage(currentPage > totalPages ? 1 : currentPage);
+  } catch (err) { console.error(err); }
+}
 
-  function renderPage(page) {
-    const grid = document.getElementById('product-grid');
-    grid.classList.add('fading');
+function renderPage(page) {
+  const grid = document.getElementById('product-grid');
+  grid.classList.add('fading');
+  
+  setTimeout(() => {
+    currentPage = page;
+    sessionStorage.setItem('lastPage', currentPage);
     
-    setTimeout(() => {
-      currentPage = page;
-      sessionStorage.setItem('lastPage', currentPage);
-      
-      const start = (page - 1) * productsPerPage;
-      const pageProducts = products.slice(start, start + productsPerPage);
-      grid.innerHTML = '';
+    const start = (page - 1) * productsPerPage;
+    const pageProducts = products.slice(start, start + productsPerPage);
+    grid.innerHTML = '';
 
-      pageProducts.forEach((prod) => {
-        const category = new URLSearchParams(window.location.search).get('category') || 'baby_accessories';
-        const detailHref = prod.link || `template_buy.html?category=${category}&prod=${prod.id}`;
-        const article = document.createElement('article');
-        article.className = 'product-card';
-        article.onclick = () => window.location.href = detailHref;
+    pageProducts.forEach((prod) => {
+      const category = new URLSearchParams(window.location.search).get('category') || 'baby_accessories';
+      const detailHref = prod.link || `template_buy.html?category=${category}&prod=${prod.id}`;
+      const article = document.createElement('article');
+      article.className = 'product-card';
+      article.onclick = () => window.location.href = detailHref;
 
-        // Updated logic to handle classes and styles
-        const slidesHTML = prod.images.map(img => {
-          const isObj = typeof img !== 'string';
-          const src = isObj ? img.src : img;
-          const classes = (isObj && img.classes) ? img.classes.join(' ') : '';
-          
-          let styles = '';
-          if (isObj && img.styles) {
-            styles = Array.isArray(img.styles) ? img.styles.join(' ') : img.styles;
-          }
+      const slidesHTML = prod.images.map(img => {
+        const isObj = typeof img !== 'string';
+        const src = isObj ? img.src : img;
+        const classes = (isObj && img.classes) ? img.classes.join(' ') : '';
+        
+        let styles = '';
+        if (isObj && img.styles) {
+          styles = Array.isArray(img.styles) ? img.styles.join(' ') : img.styles;
+        }
 
-          return `<img src="${src}" class="${classes}" style="${styles}" alt="${prod.title}" loading="lazy">`;
-        }).join('');
+        return `<img src="${src}" class="${classes}" style="${styles}" alt="${prod.title}" loading="lazy">`;
+      }).join('');
 
-        const showButtons = prod.images.length > 1;
+      const showButtons = prod.images.length > 1;
 
-        article.innerHTML = `
-          <div class="slider">
-            <div class="slides">${slidesHTML}</div>
-            ${prod.outOfStock ? '<div class="out-of-stock-tag">Out Of Stock</div>' : ''}
-            ${prod.comingSoon ? '<div class="coming-soon-tag">Coming Soon!</div>' : ''}
-            ${showButtons ? `
-              <button class="slider-button prev" aria-label="Prev">&#10094;</button>
-              <button class="slider-button next" aria-label="Next">&#10095;</button>
-            ` : ''}
-          </div>
-          <h2 class="product-title">${prod.title}</h2>
-        `;
-        grid.appendChild(article);
-        setupSlider(article.querySelector('.slider'));
-      });
-      
-      renderPagination();
-      scrollToTopProduct(100); 
-      grid.classList.remove('fading');
-    }, 150);
-  }
-
-  function renderPagination() {
-    const pagination = document.getElementById('pagination');
-    const grid = document.getElementById('product-grid');
-    if (!pagination) return;
-
-    pagination.innerHTML = '';
-
-    const createBtn = (text, disabled, targetPage) => {
-      const btn = document.createElement('button');
-      btn.textContent = text;
-      btn.disabled = disabled;
-      btn.onclick = () => {
-        if (!grid.classList.contains('fading')) renderPage(targetPage);
-      };
-      return btn;
-    };
-
-    pagination.appendChild(createBtn('Prev', currentPage === 1, currentPage - 1));
-
-    const pageInput = document.createElement('input');
-    pageInput.type = 'number';
-    pageInput.value = currentPage;
-    pageInput.onkeydown = (e) => {
-      if (e.key === 'Enter' && !grid.classList.contains('fading')) {
-        let val = Math.min(Math.max(parseInt(pageInput.value), 1), totalPages);
-        renderPage(val);
+      // Logic for adding the Sold tag with priority
+      let tagHTML = '';
+      if (prod.sold) {
+        tagHTML = '<div class="sold-tag">Sold!</div>';
+      } else if (prod.outOfStock) {
+        tagHTML = '<div class="out-of-stock-tag">Out Of Stock</div>';
+      } else if (prod.comingSoon) {
+        tagHTML = '<div class="coming-soon-tag">Coming Soon!</div>';
       }
+
+      article.innerHTML = `
+        <div class="slider">
+          <div class="slides">${slidesHTML}</div>
+          ${tagHTML}
+          ${showButtons ? `
+            <button class="slider-button prev" aria-label="Prev">&#10094;</button>
+            <button class="slider-button next" aria-label="Next">&#10095;</button>
+          ` : ''}
+        </div>
+        <h2 class="product-title">${prod.title}</h2>
+      `;
+      grid.appendChild(article);
+      setupSlider(article.querySelector('.slider'));
+    });
+    
+    renderPagination();
+    scrollToTopProduct(100); 
+    grid.classList.remove('fading');
+  }, 150);
+}
+
+function renderPagination() {
+  const pagination = document.getElementById('pagination');
+  const grid = document.getElementById('product-grid');
+  if (!pagination) return;
+
+  pagination.innerHTML = '';
+
+  const createBtn = (text, disabled, targetPage) => {
+    const btn = document.createElement('button');
+    btn.textContent = text;
+    btn.disabled = disabled;
+    btn.onclick = () => {
+      if (!grid.classList.contains('fading')) renderPage(targetPage);
     };
-    pagination.appendChild(pageInput);
+    return btn;
+  };
 
-    const totalText = document.createElement('span');
-    totalText.textContent = ` of ${totalPages}`;
-    pagination.appendChild(totalText);
+  pagination.appendChild(createBtn('Prev', currentPage === 1, currentPage - 1));
 
-    pagination.appendChild(createBtn('Next', currentPage === totalPages, currentPage + 1));
-  }
+  const pageInput = document.createElement('input');
+  pageInput.type = 'number';
+  pageInput.value = currentPage;
+  pageInput.onkeydown = (e) => {
+    if (e.key === 'Enter' && !grid.classList.contains('fading')) {
+      let val = Math.min(Math.max(parseInt(pageInput.value), 1), totalPages);
+      renderPage(val);
+    }
+  };
+  pagination.appendChild(pageInput);
 
-  function setupSlider(slider) {
-    const slides = slider.querySelector('.slides');
-    const count = slides.children.length;
-    if (count <= 1) return;
+  const totalText = document.createElement('span');
+  totalText.textContent = ` of ${totalPages}`;
+  pagination.appendChild(totalText);
 
-    let index = 0;
-    const update = () => slides.style.transform = `translateX(-${index * 100}%)`;
+  pagination.appendChild(createBtn('Next', currentPage === totalPages, currentPage + 1));
+}
 
-    slider.querySelector('.prev').onclick = (e) => {
-      e.stopPropagation(); e.preventDefault();
-      index = (index - 1 + count) % count;
-      update();
-    };
+function setupSlider(slider) {
+  const slides = slider.querySelector('.slides');
+  const count = slides.children.length;
+  if (count <= 1) return;
 
-    slider.querySelector('.next').onclick = (e) => {
-      e.stopPropagation(); e.preventDefault();
-      index = (index + 1) % count;
-      update();
-    };
-  }
+  let index = 0;
+  const update = () => slides.style.transform = `translateX(-${index * 100}%)`;
 
-  function scrollToTopProduct(gap = 50) {
-    const grid = document.getElementById('product-grid');
-    if (!grid) return;
-    const topPos = grid.getBoundingClientRect().top + window.pageYOffset - gap;
-    window.scrollTo({ top: topPos, behavior: 'smooth' });
-  }
+  slider.querySelector('.prev').onclick = (e) => {
+    e.stopPropagation(); e.preventDefault();
+    index = (index - 1 + count) % count;
+    update();
+  };
 
-  loadProducts();
+  slider.querySelector('.next').onclick = (e) => {
+    e.stopPropagation(); e.preventDefault();
+    index = (index + 1) % count;
+    update();
+  };
+}
+
+function scrollToTopProduct(gap = 50) {
+  const grid = document.getElementById('product-grid');
+  if (!grid) return;
+  const topPos = grid.getBoundingClientRect().top + window.pageYOffset - gap;
+  window.scrollTo({ top: topPos, behavior: 'smooth' });
+}
+
+loadProducts();
 </script>
 </body>
 </html>
