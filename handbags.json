@@ -60,12 +60,12 @@
     },{
       "id": "Black_Greenstrip_Tote_Bag",
       "title": "Black Tote Bag with Green Strips",
-      "price": "₹649.00",
+      "price": "₹799.00",
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
-      "amazonLink": "https://www.amazon.in/",
+      "amazonLink": "https://amzn.in/d/0fSe6auL",
       "link": "template_buy.html?category=handbags&prod=Black_Greenstrip_Tote_Bag",
       "outOfStock": false,
-      "comingSoon": true,
+      "comingSoon": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Handbags/Black_Greenstrip_Bag/1.jpg",
@@ -83,12 +83,12 @@
       ]
     },
     {
-      "id": "pinkWhite_bag",
-      "title": "Pink White Bag",
+      "id": "Flower_Bucket_Bag",
+      "title": "Flower Bucket Bag",
       "price": "₹999.00",
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GS9FD4HL/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_d7f30c9f-8f1f-43f2-8d4a-506690ba2181",
-      "link": "template_buy.html?category=handbags&prod=pinkWhite_bag",
+      "amazonLink": "https://amzn.in/d/09wPVUZT",
+      "link": "template_buy.html?category=handbags&prod=Flower_Bucket_Bag",
       "outOfStock": false,
       "images": [
         {
@@ -104,14 +104,14 @@
       ]
     },
     {
-      "id": "greyWhite_Bag",
-      "title": "Grey White Bag",
+      "id": "Drawstring_Bucket_Bag",
+      "title": "Drawstring Bucket Bag",
       "price": "₹899.00",
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
-      "amazonLink": "https://www.amazon.in/gp/product/B0GS95XHJP/ref=cx_skuctr_share_ls_srb?smid=AO46KA4WB8YPO&tag=ShopReferral_1d2180a6-8e73-489d-aff2-24ec1baca6a0",
-      "link": "template_buy.html?category=handbags&prod=greyWhite_Bag",
+      "amazonLink": "https://amzn.in/d/0e9R0uf9",
+      "link": "template_buy.html?category=handbags&prod=Drawstring_Bucket_Bag",
       "outOfStock": false,
-      "comingSoon": true,
+      "comingSoon": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/2.jpg",

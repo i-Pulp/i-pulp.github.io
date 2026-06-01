@@ -50,10 +50,10 @@
       "title": "Hairpins",
       "price": "₹499.00",
       "description": "",
-      "amazonLink": "https://www.amazon.in/",
+      "amazonLink": "https://amzn.in/d/01Q9cbPv",
       "link": "template_buy.html?category=women_fashion_accessories&prod=Alligator_Hairpins",
       "outOfStock": false,
-      "comingSoon": true,
+      "comingSoon": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/310551b80a3c4e9b5d3094234a248246eb93f5c7/Images/Category/Women_Fashion_Accessories/Hairpins/2.jpg",

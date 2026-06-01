@@ -5,12 +5,12 @@
       {
       "id": "Cream_Blackstrip_Shawl",
       "title": "Cream Shawl",
-      "price": "₹1,999.00",
+      "price": "₹2,499.00",
       "description": "A soft and cozy cream-colored crochet shawl with intricate stitch detailing. Pairs beautifully with winter outfits and offers premium warmth and comfort.",
-      "amazonLink": "https://amzn.in/",
+      "amazonLink": "https://amzn.in/d/0dObKAuA",
       "link": "template_buy.html?category=women_accessories&prod=Cream_Blackstrip_Shawl",
-      "outOfStock": true,
-      "comingSoon": true,
+      "outOfStock": false,
+      "comingSoon": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Women_Accessories/Cream_Blackstrip_Shawl/12.jpg",

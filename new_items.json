@@ -348,10 +348,10 @@
       "title": "Black Tote Bag with Green Strips",
       "price": "₹649.00",
       "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
-      "amazonLink": "https://www.amazon.in/",
+      "amazonLink": "https://amzn.in/d/0fSe6auL",
       "link": "template_buy.html?category=handbags&prod=Black_Greenstrip_Tote_Bag",
       "outOfStock": false,
-      "comingSoon": true,
+      "comingSoon": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Handbags/Black_Greenstrip_Bag/1.jpg",
@@ -368,12 +368,12 @@
     {
       "id": "Cream_Blackstrip_Shawl",
       "title": "Cream Shawl",
-      "price": "₹1,999.00",
+      "price": "₹2,499.00",
       "description": "A soft and cozy cream-colored crochet shawl with intricate stitch detailing. Pairs beautifully with winter outfits and offers premium warmth and comfort.",
-      "amazonLink": "https://amzn.in/",
+      "amazonLink": "https://amzn.in/d/0dObKAuA",
       "link": "template_buy.html?category=women_accessories&prod=Cream_Blackstrip_Shawl",
       "outOfStock": false,
-      "comingSoon": true,
+      "comingSoon": false,
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/101b017ce5ed3f14b7bd605094457d7399ed0e23/Images/Category/Women_Accessories/Cream_Blackstrip_Shawl/12.jpg"
@@ -384,12 +384,12 @@
       ]
     },
     {
-      "id": "Blue_Poncho",
-      "title": "Blue poncho",
-      "price": "₹899.00",
+      "id": "Black_Poncho",
+      "title": "Black poncho",
+      "price": "₹999.00",
       "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
-      "amazonLink": "https://amzn.in/d/9a1djEM",
-      "link": "template_buy.html?category=baby_accessories&prod=Blue_Poncho",
+      "amazonLink": "https://amzn.in/d/079mndHQ",
+      "link": "template_buy.html?category=baby_accessories&prod=Black_Poncho",
       "images": [
         {
           "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/85c408ae5902affa39b4e5244885f481762f182e/Images/Category/Baby_Products/Poncho/Blue_Poncho/1.jpg"
@@ -399,13 +399,13 @@
         }
       ],
       "outOfStock": false,
-      "comingSoon": true
+      "comingSoon": false
     },{
       "id": "Colourful_Ponchu",
       "title": "Bright Coloured Poncho",
-      "price": "₹1,799.00",
+      "price": "₹2,199.00",
       "description": "A unique comfy sweater crafted for easy movement. Lightweight, breathable, and perfect for playtime, daily wear and to tackle winter.",
-      "amazonLink": "https://amzn.in/d/9a1djEM",
+      "amazonLink": "https://amzn.in/d/0cClVvv1",
       "link": "template_buy.html?category=baby_accessories&prod=Colourful_Ponchu",
       "images": [
         {
@@ -419,7 +419,7 @@
         }
       ],
       "outOfStock": false,
-      "comingSoon": true
+      "comingSoon": false
     },
     {
       "id": "SkyBlue_Cheque_Dress",
@@ -464,6 +464,43 @@
       ],
       "outOfStock": false,
       "comingSoon": true
+    },
+    {
+      "id": "Flower_Bucket_Bag",
+      "title": "Flower Bucket Bag",
+      "price": "₹999.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://amzn.in/d/09wPVUZT",
+      "link": "template_buy.html?category=handbags&prod=Flower_Bucket_Bag",
+      "outOfStock": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/1.jpg",
+          "styles": "object-position: 50% 90%;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/pinkWhite_Bag/2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Drawstring_Bucket_Bag",
+      "title": "Drawstring Bucket Bag",
+      "price": "₹899.00",
+      "description": "A beautifully woven Bag, perfect for daily use or market trips. Features a sturdy handle and ample space. Eco-friendly and stylish.",
+      "amazonLink": "https://amzn.in/d/0e9R0uf9",
+      "link": "template_buy.html?category=handbags&prod=Drawstring_Bucket_Bag",
+      "outOfStock": false,
+      "comingSoon": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/2.jpg",
+          "styles": "object-position: 50% 80%;"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/i-Pulp/i-pulp.github.io/main/Images/Category/Handbags/greyWhite_Bag/1.jpg"
+        }
+      ]
     }
   ]
 }
